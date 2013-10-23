@@ -34,7 +34,18 @@
 		</aside>
 		
 		<article>
-			Aucun articles pour le moment.
+<?php
+			foreach ($tickets as $ticket) {
+?>
+			 	<h1>
+			 		<a href="ticket.php?id=<?php echo $ticket['id'] ?>"><?php echo $ticket['title']; ?></a>
+			 		
+			 	</h1>
+			 		<em> <?php echo $ticket['description']; ?></em>
+			 		<em> le <?php echo $ticket['date']; ?></em>
+<?php 
+	 	}
+?>
 		</article>
 	</section>
 
@@ -42,4 +53,3 @@
 		<?php include("footer.php") ?>
 	</footer>
 
-</body>
