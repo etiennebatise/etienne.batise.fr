@@ -1,6 +1,5 @@
 <?php 
-
-include('config.php');
+	include('config.php');
 
 function get_tickets_list($offset, $limit)
  {
@@ -9,7 +8,6 @@ function get_tickets_list($offset, $limit)
  	$offset = (int) $offset;
  	$limit = (int) $limit;
 
- 	// $req = $db->prepare('SELECT id, title, description, date FROM blog LIMIT :li');
  	$req = $db->prepare('SELECT id, title, description, date FROM blog ');
 
  	$req->execute(array('li'=>$limit));
@@ -32,21 +30,18 @@ function get_tickets_list($offset, $limit)
  	return current($ticket); 	
  }
 
- function value_exists($table, $key, $value){
- 	global $db;
-
- 	$key = (string)$key;
- 	print_r($table);
- 	print_r($key);
- 	print_r($value);
-
- 	$req = $db->prepare('SELECT $key FROM $table');
- 	$req->execute();
- 	$array = $req->fetchAll();
- 	print_r($array);
- 	$result = in_array($value, $array);
- 	return $result;
-
- }
+ 	function print_table($tickets) {
+	 	foreach ($tickets as $ticket) {
+	?>
+		<article>
+			<h1>
+				<a href="ticket.php?id=<?php echo $ticket['id'] ?>"><?php echo $ticket['title']; ?></a>
+			</h1>
+		 		<em> <?php echo $ticket['description']; ?></em>
+		 		<em> le <?php echo $ticket['date']; ?></em>
+		 </article>
+	<?php 
+		}
+	}
 
 ?>
