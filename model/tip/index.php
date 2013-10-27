@@ -9,7 +9,6 @@
 
 	function get_rand_tip($tips){
 		global $db;
-		// Use php function
 		// $date;
 		// $tips = get_tip_list_to_date($tiplist, $date);
 		
@@ -19,8 +18,12 @@
 			$tips = $req->fetchAll();
 		}
 
-		$random = rand();
+		$random = rand() % 2;
 
-		return $tips[$random];
+		$tip = $tips[$random];
+
+		$sentence = $tip[1];
+
+		return $sentence;//$tips[$random];
 	}
  ?>

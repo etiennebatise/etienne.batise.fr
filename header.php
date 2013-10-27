@@ -12,7 +12,7 @@
 			<a href="student.php"><img src="res/pen.png" alt="icône de crayon"></a>
 		</div>
 
- 	<p> <?php echo '$tip'; ?> </p>
+		<p> <?php echo $tip; ?> </p>
 
 <?php 
 include('nav.php');
