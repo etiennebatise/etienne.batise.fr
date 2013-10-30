@@ -34,11 +34,11 @@ function get_tickets_list($offset, $limit)
 	 	foreach ($tickets as $ticket) {
 	?>
 		<article>
-			<h1>
-				<a href="ticket.php?id=<?php echo $ticket['id'] ?>"><?php echo $ticket['title']; ?></a>
-			</h1>
-		 		<em> <?php echo $ticket['description']; ?></em>
-		 		<em> le <?php echo $ticket['date']; ?></em>
+			<!-- <h1> -->
+				<a href="ticket.php?id=<?php echo $ticket['id'] ?>"><?php echo $ticket['title']; ?></a> <em> le <?php echo $ticket['date']; ?></em>
+			<!-- </h1> -->
+<!-- 		 		<em> <?php echo $ticket['description']; ?></em>
+		 		<em> le <?php echo $ticket['date']; ?></em> -->
 		 </article>
 	<?php 
 		}

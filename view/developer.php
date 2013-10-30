@@ -15,7 +15,7 @@
 		<h1>Quantic Télécom</h1>
 
 		<aside>
-			<img src="res/logoQT.png" alt="logo de Quantic Télécom"/>
+			<img src="res/logoQT1.png" alt="logo de Quantic Télécom"/>
 		</aside>
 		
 		<article>
