@@ -33,13 +33,13 @@ function get_tickets_list($offset, $limit)
  	function print_table($tickets) {
 	 	foreach ($tickets as $ticket) {
 	?>
-		<article>
+		<div>
 			<!-- <h1> -->
-				<a href="ticket.php?id=<?php echo $ticket['id'] ?>"><?php echo $ticket['title']; ?></a> <em> le <?php echo $ticket['date']; ?></em>
+				<a href="ticket.php?id=<?php echo $ticket['id'] ?>"><?php echo $ticket['title']; ?></a>, <em>le <?php echo $ticket['date']; ?></em>
 			<!-- </h1> -->
 <!-- 		 		<em> <?php echo $ticket['description']; ?></em>
 		 		<em> le <?php echo $ticket['date']; ?></em> -->
-		 </article>
+		 </div>
 	<?php 
 		}
 	}

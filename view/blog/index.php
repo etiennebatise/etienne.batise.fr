@@ -19,9 +19,10 @@
 		</nav>
 	</header>
 	
-	
+	<section>
 	<?php foreach ($tickets as $ticket) {
 	 ?>
+	 	<article class="blog">
 	 	<h1>
 	 		<a href="ticket.php?id=<?php echo $ticket['id'] ?>"><?php echo $ticket['title']; ?></a>
 	 		
@@ -29,9 +30,10 @@
 	 		<em> <?php echo $ticket['description']; ?></em>
 	 		<em> le <?php echo $ticket['date']; ?></em>
 	 	
-
+	 	</article>
 	 <?php 	 }
 	 ?>
+	 </section>
 	<footer>
 		<?php include ("footer.php") ?>
 	</footer>
