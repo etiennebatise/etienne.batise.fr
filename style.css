@@ -54,7 +54,7 @@ header img
 	margin-top: 2%;
 	padding:20px;
 	transition-property:border padding;
-	transition-duration:0.1s;
+	transition-duration:0.05s;
 	transition-timing-function:linear;
 	/*vertical-align: center;*/
 	width:10%;
@@ -63,7 +63,7 @@ header img
 header img:hover
 {
 	border:12px solid #EEEEEE;
-	padding : 9px;
+	padding : 9px 9.1px;
 }
 
 header p 
@@ -141,8 +141,8 @@ section h1
 
 section article {
 	/*border:1px solid black;*/
-	width : 60%;
-	padding: 30px 0 0 30px;
+	width : 50%;
+	padding: 1px 0 0 30px;
 	margin: 20px, 20px;	
 }
 
@@ -150,9 +150,10 @@ section aside
 {
 	width:30%;
 	height:30%;
-	padding:3px;
-	margin-top: 10%;
+	padding:3px 10%;
+	margin:5% 0;
 	float:right;
+
 }
 
 section aside img
@@ -213,4 +214,22 @@ footer ul a:hover
 {
 	color:#1A1A14;
 	background-color:#DBDBDB; 
+}
+
+/************************************************************************************/
+/* BLOG */
+.blog 
+{
+	font-size: 17px;
+	width:80;%
+}
+
+.blog h1
+{
+	display:inline-block;
+	padding:0;
+}
+.blog em 
+{
+	font-size: 15px;
 }
