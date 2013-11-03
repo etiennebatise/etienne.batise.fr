@@ -15,10 +15,6 @@
 	<section>
 		<h1>Qui suis-je ?</h1>
 
-		<aside>
-			<!-- <img src="res/keyboardhd.jpg" id="keyboard-developer-frame-picture" alt="Image de clavier"/> -->
-		</aside>
-		
 		<article>
 			<p>Je m'appelle Etienne Batise et je suis élève ingénieur à l'INSA de Rouen. Je suis développeur, musicien et membre actifs de l'association Quantic Télécom.</p>
 
@@ -31,7 +27,8 @@
 	<section>
 		<h1>Développeur</h1>
 		<article>
-			<p>Tout mes projets personnels en rapport avec le monde de l'informatique sont disponible <a href="#">ici</a>. </p>
+			<p>Tous mes projets personnels en rapport avec le monde de l'informatique sont disponible <a href="#">ici</a>. </p>
+				Les principaux :
 			<ul>
 				<li>Phi : a journey</li>
 				<li>Quantic Télécom</li>
@@ -44,7 +41,8 @@
 	<section>
 		<h1>Musicien</h1>
 		<article>
-			<p>Vous pourrez toutes mes créations et projets musicaux <a href="#">ici</a>. </p>
+			<p>Vous pouvez trouver toutes mes créations et projets musicaux <a href="#">ici</a>. </p>
+				Les principaux :
 			<ul>
 				<li>Matres</li>
 				<li>Phi : a journey</li>

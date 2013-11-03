@@ -8,7 +8,7 @@ function get_tickets_list($offset, $limit)
  	$offset = (int) $offset;
  	$limit = (int) $limit;
 
- 	$req = $db->prepare('SELECT id, title, description, date FROM blog ');
+ 	$req = $db->prepare('SELECT id, title, description, date FROM blog ORDER BY id DESC');
 
  	$req->execute(array('li'=>$limit));
  	$tickets = $req->fetchAll();

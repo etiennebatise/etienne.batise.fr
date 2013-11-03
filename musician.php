@@ -36,7 +36,7 @@
 	</section>
 
 	<section>
-		<h1>Derniers articles sur le développement</h1>
+		<h1>Derniers articles</h1>
 		
 		<article>
 			Aucun articles pour le moment.
