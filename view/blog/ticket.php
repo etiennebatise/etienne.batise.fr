@@ -7,8 +7,13 @@
 </head>
 
 <body>
+	<header>
+		<?php include('nav.php') ?>
+	</header>
 
-<section id="ticket">
-	<h1><?php echo $ticket['title'] ?></h1>
-	<article><?php echo $ticket['content']; ?></article>
-</section>
+	<section id="ticket">
+		<h1><?php echo $ticket['title'] ?></h1>
+		<article><?php echo $ticket['content']; ?></article>
+	</section>
+
+	<?php include('footer.php') ?>

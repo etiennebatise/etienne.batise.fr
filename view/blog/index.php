@@ -27,16 +27,13 @@
 	 		<a href="ticket.php?id=<?php echo $ticket['id'] ?>"><?php echo $ticket['title']; ?></a>
 	 		
 	 	</h1>
+	 	<div>
 	 		<em> <?php echo $ticket['description']; ?></em>
 	 		<em> le <?php echo $ticket['date']; ?></em>
-	 	
+	 	</div>
 	 	</article>
 	 <?php 	 }
 	 ?>
 	 </section>
-	<footer>
-		<?php include ("footer.php") ?>
-	</footer>
-</body>
 
-</html>
+<?php include ("footer.php") ?>

@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<!-- Entête de page -->
-<head>
-	<meta charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Etienne Batise</title>
-</head>
-
-<body>
-	<header>
-		<?php include("header.php") ?>
-	</header>
+<?php include("header.php") ?>
 
 	<section>
 		<h1>Matress</h1>
@@ -43,8 +32,4 @@
 		</article>
 	</section>
 
-	<footer>
-		<?php include("footer.php") ?>
-	</footer>
-
-</body>
+<?php include("footer.php") ?>

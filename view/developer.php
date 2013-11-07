@@ -1,21 +1,10 @@
-<!DOCTYPE html>
-<!-- Entête de page -->
-<head>
-	<meta charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Etienne Batise</title>
-</head>
 
-<body>
-	<header>
-		<?php include("header.php") ?>
-	</header>
+<?php include("header.php") ?>
 
 	<section>
 		<h1>Quantic Télécom</h1>
 
-		<aside>
-			<img src="res/logoQT1.png" alt="logo de Quantic Télécom"/>
+		<aside id='logoqt'>
 		</aside>
 		
 		<article>
@@ -28,10 +17,6 @@
 	<section>
 		<h1>PHI</h1>
 
-		<aside>
-			<img src="res/" alt=""/>
-		</aside>
-		
 		<article>
 			<p>
 			Phi est un projet que j'ai créé en 2011 avec plusieurs autres élèves de l'INSA de Rouen dans le but de nous former plus rapidement et plus efficacement à la programmation en nous mettant comme but de réaliser un ou plusieurs jeux vidéos de A à Z. Notre premier jeu est toujours en phase de développement.
