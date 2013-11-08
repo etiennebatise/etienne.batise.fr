@@ -8,7 +8,7 @@
 <head>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="style.css" media="all and (max-width: 360px)">
+	<!-- <link rel="stylesheet" type="text/css" href="style.css" media="@media handheld and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)"> -->
 	<title>Etienne Batise</title>
 </head>
 

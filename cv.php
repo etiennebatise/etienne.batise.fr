@@ -12,14 +12,14 @@
 		<?php include("header.php") ?>
 	</header>
 	
-	Texte html
+	<!-- Texte html
 
-	<span id="texteJQ"></span>
-	<script src="jq/jquery.js"></script>
+	<span id="texteJQ"></span> -->
+<!--	<script src="jq/jquery.js"></script>
 	<script src="jq/helloWorld.js"></script>
-
-	<p><span class="fade">test fade</span></p>
-
+-->
+<!-- 	<p><span class="fade">test fade</span></p>
+ -->
 	<footer>
 		<?php include ("footer.php") ?>
 	</footer>

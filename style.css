@@ -1,3 +1,9 @@
+@font-face{
+	font-family: 'Dustismoc';
+	src:url('Dustismo.ttf') format('truetype');
+}
+
+
 /* UNIVERSAL */
 
 body
@@ -5,8 +11,10 @@ body
 	padding:0px;
 	margin:0px;
 	text-align: justify;
-	font-family: Dustismo, Ubuntu;
-	font-size: 18px;
+	font-family: Dustismoc, Ubuntu, AppleGothic Regular;
+	/*font-size: 18px;*/
+	font-size: 21px;
+
 }
 
 
@@ -125,14 +133,15 @@ section
 
 	padding: 5% 0 10px 13%;
 	height:auto;
-	min-height:350px;
+	min-height:450px;
 	width:auto;
-	background-image:linear-gradient(to bottom, #EEEEEE 5%, #FAFAFA 25%);
+	background-image:linear-gradient(to bottom, #EEEEEE 2%, #FEFEFE 25%);
 }
 
 section h1
 {
 	color:#1A1A14;
+	font-size: 24px;
 }
 
 section article {
@@ -150,6 +159,7 @@ section aside
 	padding:3px 5%;
 	margin:0;
 	margin-top: 5%;
+	margin-right: 5%;
 	float:right;
 
 }
@@ -217,7 +227,7 @@ footer ul a:hover
 /* BLOG */
 .blog 
 {
-	font-size: 17px;
+	font-size: 20px;
 	width:80%;
 }
 
@@ -231,13 +241,20 @@ footer ul a:hover
 	font-size: 15px;
 }
 
+.post
+{
+	width:70%;
+	font-size: 20px;	
+	padding-bottom: 45px;
+}
+
 /************************************************************************************/
 /* MEDIA QUERIES */
-@media all and (max-width: 360px)
+@media screen and (max-device-width: 999px)
 {
 	body 
 	{
-		font-size: 14px;
+		font-size: 30px;
 	}
 
 	header p
@@ -248,16 +265,27 @@ footer ul a:hover
 	section
 	{
 		min-height: 250px;
+		padding-bottom: 5%;
 	}
 
 	section article
 	{
 		width: 75%;
-		padding-left: 2%;
+		padding-left: 30px;
 	}
 
 	footer
 	{
 		font-size: 10px;
+	}
+
+	.blog
+	{
+		font-size: 30px;
+	}
+
+	.post
+	{
+		width:80%;
 	}
 }
