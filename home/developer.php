@@ -1,6 +1,3 @@
-
-<?php include("header.php") ?>
-
 	<section>
 		<h1>Quantic Télécom</h1>
 
@@ -23,16 +20,3 @@
 			</p>
 		</article>
 	</section>
-
-	<section>
-		<h1>Derniers articles</h1>
-		<?php 
-			print_table($tickets);
-		 ?>
-	</section>
-
-	<footer>
-		<?php include("footer.php") ?>
-	</footer>
-
-</body>

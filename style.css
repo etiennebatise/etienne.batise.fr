@@ -43,7 +43,8 @@ header
 	text-align: center;
 }
 
-header a
+/*header a*/
+header span
 {
 	margin:0px 4%;
 }

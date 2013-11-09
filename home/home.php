@@ -1,5 +1,4 @@
-<?php include("header.php") ?>
-
+<div id='content'>
 <!-- QUI SUIS JE -->
 	<section>
 		<h1>Qui suis-je ?</h1>
@@ -38,13 +37,11 @@
 			</ul>
 		</article>
 	</section>
+</div>
 
 	<section>
 		<h1>Derniers articles</h1>
 		<?php
-			print_table($tickets);
+			print_table($tickets, 'other');
 		?>
 	</section>
-
-<?php include("footer.php") ?>
-

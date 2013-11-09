@@ -1,5 +1,3 @@
-<?php include("header.php") ?>
-
 	<section>
 		<h1>Matress</h1>
 
@@ -28,8 +26,5 @@
 		<h1>Derniers articles</h1>
 		
 		<article>
-			Aucun articles pour le moment.
 		</article>
 	</section>
-
-<?php include("footer.php") ?>
