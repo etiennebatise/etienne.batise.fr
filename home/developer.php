@@ -19,4 +19,5 @@
 			Phi est un projet que j'ai créé en 2011 avec plusieurs autres étudiants dans le but de réaliser un ou plusieurs jeux vidéos de A à Z. Notre premier jeu est toujours en phase de développement.
 			</p>
 		</article>
+
 	</section>

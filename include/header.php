@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!-- Entête de page -->
 <head>
@@ -20,21 +21,11 @@
 
 		<p> <?php echo $tip; ?> </p>
 
-<?php 
-include('nav.php');
- ?>
+<script src="jq/icon.js"></script>
+	
+		<?php 
+			include('nav.php');
+		 ?>
 
 	</header>
 
-
-<script>
-  $(function() {
-    $('#dev').click(function() {
-      $('#content').load('home/developer.php')
-    });
-
-    $('#note').click(function() {
-    	$('#content').load('home/musician.php')
-    });
-  });
-</script>

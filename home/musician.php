@@ -21,10 +21,3 @@
 			<p><a href="#">Écouter la bande original du jeu</a></p>
 		</article>
 	</section>
-
-	<section>
-		<h1>Derniers articles</h1>
-		
-		<article>
-		</article>
-	</section>

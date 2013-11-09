@@ -37,8 +37,8 @@
 			</ul>
 		</article>
 	</section>
-</div>
 
+</div>
 	<section>
 		<h1>Derniers articles</h1>
 		<?php
