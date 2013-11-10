@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- <link rel="stylesheet" type="text/css" href="style.css" media="@media handheld and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)"> -->
 	<title>Etienne Batise</title>
 </head>
 
@@ -20,8 +19,9 @@
 
 		<script src="jq/icon.js"></script>
 
-			<p id="tip"> </p>
+			<p id="tip"><span class='invisible'>vlan</span></p>
 		<script src="jq/tip.js"></script>
+		
 		<?php 
 			include('nav.php');
 		 ?>

@@ -12,7 +12,6 @@ body
 	margin:0px;
 	text-align: justify;
 	font-family: Dustismoc, Ubuntu, AppleGothic Regular;
-	/*font-size: 18px;*/
 	font-size: 21px;
 
 }
@@ -36,6 +35,10 @@ a
 	min-height: 500px;
 }
 
+.invisible
+{
+	visibility:hidden;
+}
 /************************************************************************************/
 /* HEADER FRAME */
 
@@ -79,7 +82,6 @@ header img:hover
 
 header p 
 {
-	/*visibility: hidden;*/
 	position:relative;
 	font-size: 200%;
 	line-height: 220%;
@@ -93,7 +95,6 @@ header p
 
 /************************************************************************************/
 /* NAV */
-
 nav
 {
 	width:100%;
@@ -139,7 +140,7 @@ nav a:hover
 section
 {
 
-	padding: 5% 0 10px 13%;
+	padding: 7% 0 10px 13%;
 	height:auto;
 	min-height:450px;
 	width:auto;
@@ -199,7 +200,6 @@ footer p
 	top:-20px;
 
 	display:inline-block;
-	/*text-align:justify;*/
 	width:22%;
 	padding:0 10px 0 10px;
 }
@@ -282,11 +282,13 @@ footer ul a:hover
 		padding-left: 30px;
 	}
 
+	section aside {
+		visibility:hidden;
+	}	
 	footer ul
 	{
 		visibility:collapse;
 		width:0;
-		/*font-size: 10px;*/
 	}
 
 	footer {

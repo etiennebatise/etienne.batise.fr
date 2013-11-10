@@ -2,6 +2,7 @@ $(function(){
 	function tip(){
 			$.get('tip/view.php', function(data){
 				$('#tip').html(data, function(){
+					// $.trigger('display');
 				});
 			});
 	}

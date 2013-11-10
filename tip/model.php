@@ -16,8 +16,9 @@
 			$tips = $req->fetchAll();
 		}
 
-		// TODO déterminer la longueur du tableau.
-		$random = rand() % 2;
+		$length = count($tips);
+
+		$random = rand() % $length;
 
 		$tip = $tips[$random];
 
