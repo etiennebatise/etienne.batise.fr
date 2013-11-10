@@ -1,7 +1,5 @@
 <?php 
-
-	include('config.php');
-
+	require_once('../config.php');
 
 	function get_tip_list_to_date($tips, $date){
 		// TODO
@@ -19,11 +17,11 @@
 		}
 
 		// TODO déterminer la longueur du tableau.
-		$random = rand() % 1;
+		$random = rand() % 2;
 
 		$tip = $tips[$random];
 
-		$sentence = $tip['content'];
+		$sentence = $tip["content"];
 
 		return $sentence;//$tips[$random];
 	}

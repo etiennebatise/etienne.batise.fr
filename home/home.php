@@ -1,3 +1,5 @@
+
+<!-- <script src='jq/home.js'></script> -->
 <div id='content'>
 <!-- QUI SUIS JE -->
 	<section>

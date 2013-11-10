@@ -79,6 +79,7 @@ header img:hover
 
 header p 
 {
+	/*visibility: hidden;*/
 	position:relative;
 	font-size: 200%;
 	line-height: 220%;
@@ -281,9 +282,22 @@ footer ul a:hover
 		padding-left: 30px;
 	}
 
-	footer
+	footer ul
 	{
-		font-size: 10px;
+		visibility:collapse;
+		width:0;
+		/*font-size: 10px;*/
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	footer p
+	{
+		font-size: 30px;
+		width:70%;
+		padding-left: 10%;
 	}
 
 	.blog

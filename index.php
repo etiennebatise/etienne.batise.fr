@@ -9,10 +9,6 @@
 		include('blog/model.php');
 		include('home/controller.php');
 
-		// Définition des tips
-		include('tip/model.php');
-		include('tip/controller.php');
-
 		// Vue
 		include('include/header.php');
 		include('home/home.php');
@@ -43,7 +39,8 @@
 		}
 
 		else if ($_GET['id'] == 'cv'){
-			include('cv.php');
+			include('blog/header.php');
+			include('cv/view.php');
 			include('include/footer.php');
 		}
 	}
