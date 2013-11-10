@@ -1,6 +1,6 @@
 $(function(){
 	function tip(){
-			$.get('tip/view.php', function(data){
+			$.get('index.php?id=tip', function(data){
 				$('#tip').html(data, function(){
 					// $.trigger('display');
 				});

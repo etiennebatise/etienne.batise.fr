@@ -43,6 +43,12 @@
 			include('cv/view.php');
 			include('include/footer.php');
 		}
+
+		else if ($_GET['id'] == 'tip'){
+			include('tip/model.php');
+			include('tip/controller.php');
+			include('tip/view.php');
+		}
 	}
  ?>
  

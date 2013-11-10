@@ -1,5 +1,6 @@
 <?php 
-	require_once('../config.php');
+	// require_once('config.php');
+	// require_once('/var/www/clients/client0/web66/web/etienne/config.php');
 
 	function get_tip_list_to_date($tips, $date){
 		// TODO

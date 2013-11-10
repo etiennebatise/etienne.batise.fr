@@ -15,6 +15,5 @@
 	// 	echo 'Il y a une erreur !'
 
 
-	include('controller.php');
 	echo $tip;
  ?>
