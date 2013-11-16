@@ -31,12 +31,14 @@ function get_tickets_list($offset, $limit)
  }
 
  	function print_table($tickets, $type) {
+ 		global $path_blog;
+ 		
 	 	foreach ($tickets as $ticket) {
 			if($type=='blog'){
 		?>
-				<!-- <a href="ticket.php?id=<?php echo $ticket['id'] ?>"><?php echo $ticket['title']; ?></a>, <em>le <?php echo $ticket['date']; ?></em> -->
 				<h1>
-			 		<a href="index.php?id=blog&amp;post=<?php echo $ticket['id'] ?>"><?php echo $ticket['title']; ?></a>
+					<a href=<?php echo "{$path_blog}{$ticket['id']}"?>><?php echo $ticket['title']; ?></a>
+			 		<!-- <a href="index.php?id=blog&amp;post=<?php echo $ticket['id'] ?>"><?php echo $ticket['title']; ?></a> -->
 		 		</h1>
 		 		<div>
 		 			<em> <?php echo $ticket['description']; ?></em>

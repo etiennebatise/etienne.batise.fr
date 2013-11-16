@@ -142,7 +142,8 @@ section
 
 	padding: 7% 0 10px 13%;
 	height:auto;
-	min-height:450px;
+	/*min-height:450px;*/
+	min-height:350px;
 	width:auto;
 	background-image:linear-gradient(to bottom, #EEEEEE 2%, #FEFEFE 25%);
 }

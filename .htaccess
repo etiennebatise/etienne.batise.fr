@@ -1,1 +1,9 @@
+RewriteEngine on
+
 DirectoryIndex index.php
+
+RewriteRule blog/([0-9]+) index.php?id=blog&post=$1
+
+RewriteRule blog/ index.php?id=blog
+
+RewriteRule cv/ index.php?id=cv

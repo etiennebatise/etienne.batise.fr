@@ -6,7 +6,7 @@
 		<h1>Qui suis-je ?</h1>
 
 		<article>
-			<p>Je m'appelle Etienne Batise et je suis élève ingénieur à l'INSA de Rouen. Je suis développeur, musicien et membre actifs de l'association Quantic Télécom.</p>
+			<p>Je m'appelle Etienne Batise et je suis élève ingénieur à l'INSA de Rouen. Je suis développeur, musicien et membre actif de l'association Quantic Télécom.</p>
 
 			<p>Le développement de PHI me permet de créé un jeu vidéo, de la conception du moteur de jeu à la commercialisation du produit. Mon rôle chez Quantic Télécom m'apprend le travail des fournisseurs d'accès internet. </p>
 		</article>
