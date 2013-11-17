@@ -28,7 +28,7 @@
 		<script src="jq/tip.js"></script>
 		
 		<?php 
-			include('nav.php');
+			require_once('nav.php');
 		 ?>
 
 	</header>

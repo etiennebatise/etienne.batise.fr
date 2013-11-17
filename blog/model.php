@@ -1,5 +1,5 @@
 <?php 
-	include('config.php');
+	require_once('config.php');
 
 // Fonction qui permet de récupérer un liste de billet dont l'id va de l'offset à la limite
 function get_tickets_list($offset, $limit) {

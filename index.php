@@ -1,53 +1,53 @@
 <script src="jq/jquery.js"></script>
 
 <?php 
-	include('config.php');
+	require_once('config.php');
 	
 	// Par défaut on affiche la page home.
 	if(!isset($_GET['id'])) {
 		// Définition du blog
-		include('blog/model.php');
-		include('home/controller.php');
+		require_once('blog/model.php');
+		require_once('home/controller.php');
 
 		// Vue
-		include('include/header.php');
-		include('home/home.php');
-		include('include/footer.php');
+		require_once('include/header.php');
+		require_once('home/home.php');
+		require_once('include/footer.php');
 	}
 
 	// Si le paramètre Get est blog. On affiche le blog
 	else{
 		if ($_GET['id'] == 'blog'){
 			// Définition du blog
-			include('blog/model.php');
-			include('blog/controller.php');
+			require_once('blog/model.php');
+			require_once('blog/controller.php');
 
 			// Vue (note : header dans l'index.php)
-			include('blog/header.php');
+			require_once('blog/header.php');
 			
 			// Si il y a un paramètre indiquant qu'il s'agit d'un post
 			if (isset($_GET['post'])) {
 				// on inclut le controller des post (qui s'occupe de l'affichage)
-				include('blog/post/controller.php');
+				require_once('blog/post/controller.php');
 			}
 			
 			// Sinon on affiche l'accueil du blog
 			else {
-				include('blog/view.php');
+				require_once('blog/view.php');
 			}
-			include('include/footer.php');	
+			require_once('include/footer.php');	
 		}
 
 		else if ($_GET['id'] == 'cv'){
-			include('blog/header.php');
-			include('cv/view.php');
-			include('include/footer.php');
+			require_once('blog/header.php');
+			require_once('cv/view.php');
+			require_once('include/footer.php');
 		}
 
 		else if ($_GET['id'] == 'tip'){
-			include('tip/model.php');
-			include('tip/controller.php');
-			include('tip/view.php');
+			require_once('tip/model.php');
+			require_once('tip/controller.php');
+			require_once('tip/view.php');
 		}
 	}
  ?>

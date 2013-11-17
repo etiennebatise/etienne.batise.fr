@@ -6,7 +6,7 @@ if (isset($_GET['post']) && ($_GET['post'] != NULL) /*&& value_exists('blog', 'i
 	// On récupère le post
 	$ticket = get_ticket($id);
 	// On affiche le ticket
-	include('blog/post/view.php');
+	require_once('blog/post/view.php');
 }
 
 // Sinon on affiche une erreur
