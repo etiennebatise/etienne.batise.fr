@@ -3,10 +3,10 @@
 
 	<ul>
 		Plan du site :
-		<li><a href="index.php">Accueil</a></li>
-		<li><a href="index.php?id=blog">Blog</a></li>
-		<li><a href="index.php?id=cv">CV</a></li>
-		<li><a href="#">Other</a></li>
+		<li><a id='home' href=<?php echo $path ?>>Accueil</a></li>
+		<li><a href=<?php echo $path_blog ?>>Blog</a></li>
+		<li><a href=<?php echo $path_cv ?>>CV</a></li>
+		<!-- <li><a href="#">Other</a></li> -->
 	</ul>
 
 	<ul>
