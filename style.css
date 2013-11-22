@@ -280,6 +280,54 @@ footer ul a:hover
 }
 
 /************************************************************************************/
+/* GAME */
+#game_container
+{
+	background: black;
+	height:100%;
+	min-height: 700px;
+	margin:0;
+	padding:0;
+	width:100%;
+	position:absolute;
+	overflow: hidden;
+	z-index: 10;
+}
+
+.bound
+{
+	position:absolute;
+	z-index: 20;
+}
+
+#roof
+{
+	border-bottom: 2px solid white;
+	top:  100px;
+	height:40px;
+	width:100%;
+}
+
+#ground
+{
+	border-top: 2px solid white;
+	top:  550px;
+	height:40px;
+	width:100%;
+}
+
+#p
+{
+	border:1px solid red;
+	height:20px;
+	position:absolute;
+	top : 360px;
+	left:160px;
+	width:20px;
+	z-index: 50;
+}
+
+/************************************************************************************/
 /* MEDIA QUERIES */
 @media screen and (max-device-width: 999px) and (max-width: 999px)
 {

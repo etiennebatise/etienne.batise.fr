@@ -49,6 +49,12 @@
 			require_once('tip/controller.php');
 			require_once('tip/view.php');
 		}
+
+		else if ($_GET['id'] == 'game'){
+			// require_once('blog/header.php');
+			require_once('game/view.php');
+			// require_once('include/footer.php');
+		}
 	}
  ?>
  
