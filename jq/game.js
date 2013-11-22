@@ -1,18 +1,3 @@
-// $(function(){
-// 	$(document).keydown(function(event) {
-// 		if(e.which == 37){
-// 			pX = parseInt($('#p').css('left'));
-// 			if (pX > 0)
-// 				$('#p').css('left', pX+2);
-// 		}
-
-// 		if(e.which == 39){
-// 			pX = parseInt($('#p').css('left'));
-// 			$('#p').css('left', pX-8); 
-// 		}
-// 	});
-// });
-
 $(function(){
     function goLeft(){
         pX = parseInt($('#p').css('left'));
@@ -70,8 +55,14 @@ $(function(){
         }
     }
 
+    function isADirectionKey(e){
+        return ((e.which == 37) || (e.which == 39) || (e.which == 38) || (e.which == 40)) 
+    }
     $(document).keydown(function(e){
-        $('#p').stop(true, false);
+        // On arrête toute les annimations du perso
+        // Attention en cas de nouvelles animations.
+        if (isADirectionKey(e))
+            $('#p').stop(true, false);
 
         // DIRECTION GAUCHE
         if (e.which == 37) {

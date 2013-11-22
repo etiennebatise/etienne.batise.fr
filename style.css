@@ -302,7 +302,7 @@ footer ul a:hover
 
 #roof
 {
-	border-bottom: 2px solid white;
+	border-bottom: 8px solid #999999;
 	top:  100px;
 	height:40px;
 	width:100%;
@@ -310,7 +310,7 @@ footer ul a:hover
 
 #ground
 {
-	border-top: 2px solid white;
+	border-top: 8px solid #999999;
 	top:  550px;
 	height:40px;
 	width:100%;
@@ -318,13 +318,15 @@ footer ul a:hover
 
 #p
 {
-	border:1px solid red;
+	/*background: red;*/
+	border:2px solid red;
+	/*border-radius: 360px;*/
 	height:20px;
 	position:absolute;
 	top : 360px;
 	left:160px;
 	width:20px;
-	z-index: 50;
+	z-index: 5;
 }
 
 /************************************************************************************/
