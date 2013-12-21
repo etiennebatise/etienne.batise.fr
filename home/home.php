@@ -1,49 +1,32 @@
 
 <script src='jq/home.js'></script>
 <div id='content'>
-<!-- QUI SUIS JE -->
+	<!-- QUI SUIS JE -->
 	<section>
-		<h1>Qui suis-je ?</h1>
+		<h1>Who am I ?</h1>
 
 		<article>
-			<p>Je m'appelle Etienne Batise et je suis élève ingénieur à l'INSA de Rouen. Je suis développeur, musicien et membre actif de l'association Quantic Télécom.</p>
-
-			<p>Le développement de PHI me permet de créé un jeu vidéo, de la conception du moteur de jeu à la commercialisation du produit. Mon rôle chez Quantic Télécom m'apprend le travail des fournisseurs d'accès internet. </p>
+			<p>I'm Etienne Batise. I'm student at the INSA de Rouen. I'm also a member of the association : Quantic Telecom which is an Internet Access Provider.</p>
+			<p>I like programming, mainly video-games and I like to learn new languages. I 'm also a musician, I've played the percussions for 15 years and I currently play the drums in a band.</p>
 		</article>
 	</section>
 
 
-<!-- DEVELOPPEUR -->
 	<section>
-		<h1>Développeur</h1>
-		<article>
-			<p>Tous mes projets personnels en rapport avec le monde de l'informatique sont disponible <a href="#">ici</a>. </p>
-				Les principaux :
+		<h1>Contact Me !</h1>
+		<article id='contact'>
 			<ul>
-				<li>Phi : a journey</li>
-				<li>Quantic Télécom</li>
+				<li><a href="https://www.facebook.com/etienne.grosbatise">My Facebook</a></li>
+				<li><a href="https://twitter.com/EtienneBatise">My Twitter</a></li>
+				<li><a href="https://linkedin.com">My LinkedIn</a></li>
+				<li><a href="https://github.com/etiennebatise">My GitHub </a></li>
 			</ul>
 		</article>
 	</section>
 
-
-<!-- MUSICIEN  -->
-	<section>
-		<h1>Musicien</h1>
-		<article>
-			<p>Vous pouvez trouver toutes mes créations et projets musicaux <a href="#">ici</a>. </p>
-				Les principaux :
-			<ul>
-				<li>Matres</li>
-				<li>Phi : a journey</li>
-			</ul>
-		</article>
-	</section>
-
-</div>
-	<section>
+<!-- 	<section>
 		<h1>Derniers articles</h1>
 		<?php
 			print_table($tickets, 'other');
-		?>
-	</section>
+			?> -->
+		</section>

@@ -6,7 +6,11 @@
 		
 		<article>
 			<p>
-			Quantic Télécom est une association fondée en 2011 par une dizaine d'élève ingénieur. L'association est créé suite à un besoin évident de fournir une connexion à l'Internet neutre et de qualité dans les résidences étudiantes. Après deux années, l'association est fière de ses 550 adhérents, ce qui fait d'elle le plus important fournisseur d'accès Internet associatif de France.
+				Quantic Télécom is a french association founded in 2011 by a group of student. The project was launched when lots of students needed a fast and neutral Internet connexion. Two years later, we're proud of our 600 members, and the biggest associative IAP in France.  
+			</p>
+
+			<p>
+				<a href="http://www.quantic-telecom.net"> -> Discover the association <- </a>
 			</p>
 		</article>
 	</section>
@@ -16,7 +20,11 @@
 
 		<article>
 			<p>
-			Phi est un projet que j'ai créé en 2011 avec plusieurs autres étudiants dans le but de réaliser un ou plusieurs jeux vidéos de A à Z. Notre premier jeu est toujours en phase de développement.
+				Phi is a 2D adventure / reflexion game. You are Fisher, a brilliant scientict, suspected of the murder of yout family and you must escape the police while resolving the murder of your family.
+			</p>
+
+			<p>
+				<a href="http://www.phi.com"> -> Discover le jeu <- </a>
 			</p>
 		</article>
 

@@ -171,7 +171,25 @@ section aside
 	margin-top: 5%;
 	margin-right: 5%;
 	float:right;
+}
 
+section article a
+{
+	color:grey;
+	border: 1px;
+	border-radius: 30px;
+	padding:4;
+	transition-property:color background;
+	transition-duration:0.7s;
+}
+
+section a:hover
+{
+	color: blue;
+}
+
+#contact ul li{
+	margin : 30 0;
 }
 /*
 .right article
