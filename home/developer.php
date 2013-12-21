@@ -24,7 +24,7 @@
 			</p>
 
 			<p>
-				<a href="http://www.phi.com"> -> Discover le jeu <- </a>
+				<a href="#"> -> Discover le jeu <- </a>
 			</p>
 		</article>
 

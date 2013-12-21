@@ -18,7 +18,7 @@
 			<ul>
 				<li><a href="https://www.facebook.com/etienne.grosbatise">My Facebook</a></li>
 				<li><a href="https://twitter.com/EtienneBatise">My Twitter</a></li>
-				<li><a href="https://linkedin.com">My LinkedIn</a></li>
+				<li><a href="http://www.linkedin.com/profile/view?id=305349004&trk=nav_responsive_tab_profile_pic">My LinkedIn</a></li>
 				<li><a href="https://github.com/etiennebatise">My GitHub </a></li>
 			</ul>
 		</article>
