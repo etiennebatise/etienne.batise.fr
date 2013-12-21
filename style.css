@@ -179,7 +179,7 @@ section article a
 	border: 1px;
 	border-radius: 30px;
 	padding:4;
-	transition-property:color background;
+	transition-property:color;
 	transition-duration:0.7s;
 }
 
@@ -188,9 +188,35 @@ section a:hover
 	color: blue;
 }
 
-#contact ul li{
-	margin : 30 0;
+#contact{
+	width : 80%;
 }
+#contact ul {
+	list-style-type: none;	
+}
+
+#contact ul li{
+	/*border:1px solid black ;*/
+	display : inline-block;
+	margin:25px;
+	/*padding: 60px;*/
+/*	background: url("res/FB-Logo.png");
+	background-repeat:no-repeat;
+	background-size: 100%;
+*/}
+
+.profile img{
+	width:140px;
+	height:140px;
+}
+
+/*#twitter-logo img{
+	position:relative;
+	top:-40px;
+	width:100px;
+	height:100px;	
+
+}*/
 /*
 .right article
 {

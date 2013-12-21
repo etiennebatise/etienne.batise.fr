@@ -16,10 +16,10 @@
 		<h1>Contact Me !</h1>
 		<article id='contact'>
 			<ul>
-				<li><a href="https://www.facebook.com/etienne.grosbatise">My Facebook</a></li>
-				<li><a href="https://twitter.com/EtienneBatise">My Twitter</a></li>
-				<li><a href="http://www.linkedin.com/profile/view?id=305349004&trk=nav_responsive_tab_profile_pic">My LinkedIn</a></li>
-				<li><a href="https://github.com/etiennebatise">My GitHub </a></li>
+				<li><a class="profile" href="https://www.facebook.com/etienne.grosbatise"><img src="res/FB-Logo.png"></a></li>
+				<li><a class="profile" id='twitter-logo' href="https://twitter.com/EtienneBatise"><img src="res/Twitter-logo.png"></a></li>
+				<li><a class="profile" href="http://www.linkedin.com/profile/view?id=305349004&trk=nav_responsive_tab_profile_pic"><img src="res/linkedin-logo.png"></a></li>
+				<li><a class="profile" href="https://github.com/etiennebatise"><img src="res/GitHub-logo.png"></a></li>
 			</ul>
 		</article>
 	</section>
