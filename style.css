@@ -348,6 +348,7 @@ section a:hover
 	input, textarea
 	{
 		font-family:Dustismoc, arial;
+		font-size: 15pt;
 		outline: medium none;
 		border: 1px solid #666666;
 		border-radius: 2px;

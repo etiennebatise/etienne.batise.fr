@@ -30,20 +30,20 @@
 		<form method="post" action="mail.php">
 			<p>
 				<label for="subject">Subject : </label> <br />
-				<input type="text" name="subject" id="subject" placeholder="Your subject" size="30"/>  
+				<input type="text" name="subject" id="subject" placeholder=" . . ." size="30"/>  
 			</p>
 
 			<p>	
 				<label for="name">Your name : </label> <br />
-				<input type="text" name="name" id="name" placeholder="Your name" size="30"/>  
+				<input type="text" name="name" id="name" placeholder=" . . ." size="30"/>  
 			</p>
 			<p>
 				<label for="adress">Your email adress : </label> <br />
-				<input type="email" name="adress" id="adress" placeholder="Your email adress" size="40" />  
+				<input type="email" name="adress" id="adress" placeholder=" . . ." size="40" />  
 			</p>
 
 			<p>
-				<textarea name="mail-content" id="mail-content" rows="20" cols="70" placeholder="What do you want to tell me ?" ></textarea>
+				<textarea name="mail-content" id="mail-content" rows="20" cols="50" placeholder="What do you want to tell me ?" ></textarea>
 			</p>
 
 			<p>
@@ -51,7 +51,7 @@
 			</p>
 		</form>
 
-	</section>s
+	</section>
 <!-- 	<section>
 		<h1>Derniers articles</h1>
 		<?php

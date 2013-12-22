@@ -55,6 +55,12 @@
 			require_once('game/view.php');
 			// require_once('include/footer.php');
 		}
+
+		else if ($_GET['id'] == 'admin'){
+			require_once('blog/header.php');
+			require_once('admin.php');
+			require_once("include/footer.php");
+		}
 	}
  ?>
  
