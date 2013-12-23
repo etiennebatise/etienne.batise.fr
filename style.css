@@ -345,6 +345,11 @@ section a:hover
 	{
 		width:50%;
 	}
+
+	input{
+		height:33px;
+	}
+
 	input, textarea
 	{
 		font-family:Dustismoc, arial;
@@ -360,6 +365,7 @@ section a:hover
 	}
 
 	#send{
+		height:auto;
 		font-family:Dustismoc, arial;
 		padding:10 15;
 		background-image:linear-gradient(to bottom, #DDDDDD 10%, #FEFEFE 85%);

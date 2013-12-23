@@ -43,7 +43,7 @@
 			</p>
 
 			<p>
-				<textarea name="mail-content" id="mail-content" rows="20" cols="50" placeholder="What do you want to tell me ?" ></textarea>
+				<textarea name="mail-content" id="mail-content" rows="15" cols="50" placeholder="What do you want to tell me ?" ></textarea>
 			</p>
 
 			<p>
