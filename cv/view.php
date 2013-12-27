@@ -21,15 +21,13 @@
 	<div id="exp" class="cv_bloc">
 		<h1>Expérience et vie associative</h1>
 		<div class="cv_exp">
-			exp1
+			To-do
 		</div>
 		
 		<div class="cv_exp">
-			exp2
 		</div>
 
 		<div class="cv_exp">
-			exp3
 		</div>
 
 	</div>
@@ -51,7 +49,7 @@
 	</ul>
 
 	<div id="contact" class="cv_bloc">	
-		contact
+		To-do
 	</div>
 
 	<div></div>
