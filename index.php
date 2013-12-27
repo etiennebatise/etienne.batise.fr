@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <script src="jq/jquery.js"></script>
 
 <?php 
@@ -67,7 +69,7 @@ else{
 		else
 			require_once('admin/admin.php');
 		
-		require_once("include/footer.php");
+		// require_once("include/footer.php");
 
 	}
 }
