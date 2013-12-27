@@ -14,7 +14,7 @@ $(function(){
 			tip();
 		});
 		// On fadein le bloc tip
-		$("#tip").fadeIn(1000, 'linear');
+		$("#tip").fadeIn(700, 'swing', false);
 	}
 	tip();
 	setInterval(loop, 10000);
