@@ -6,22 +6,22 @@
 		<h1>Who am I ?</h1>
 
 		<article>
-			<p>I'm Etienne Batise. I'm student at the INSA de Rouen. I'm also a member of the association : Quantic Telecom which is an Internet Access Provider.</p>
-			<p>I like programming, mainly video-games and I like to learn new languages. I 'm also a musician, I've played the percussions for 15 years and I currently play the drums in a band.</p>
+			<p>I'm Etienne Batise. I'm a french student at the <span class="keywords">INSA de Rouen</span> where I learn computer science. I'm also a member of the association <span class="keywords">Quantic Telecom</span> which is an Internet Service Provider.</p>
+			<p>I really like to develop softwares or video-games and I like to learn new programming languages. I 'm also a musician, I've played the percussions for 15 years and I currently play the drums in a band rock.</p>
 		</article>
 	</section>
 
 
 	<section>
 		<h1>Contact Me !</h1>
-		<article id='contact'>
-			<ul>
+		<article>
+		</article>
+			<ul id='contact' >
 				<li><a class="profile" href="https://www.facebook.com/etienne.grosbatise"><img src="res/FB-Logo.png"></a></li>
 				<li><a class="profile" id='twitter-logo' href="https://twitter.com/EtienneBatise"><img src="res/Twitter-logo.png"></a></li>
 				<li><a class="profile" href="http://www.linkedin.com/profile/view?id=305349004&trk=nav_responsive_tab_profile_pic"><img src="res/linkedin-logo.png"></a></li>
 				<li><a class="profile" href="https://github.com/etiennebatise"><img src="res/GitHub-logo.png"></a></li>
 			</ul>
-		</article>
 	</section>
 
 	<section>
