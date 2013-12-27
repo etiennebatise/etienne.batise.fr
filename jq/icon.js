@@ -15,4 +15,12 @@ $(function() {
    });
   });
 
+ $('#pen').click(function() {
+    $('section, footer').fadeOut(function(){
+     $('#content').load('home/student.php', function(){
+      $('#content, section, footer').fadeIn();
+    });
+   });
+  });
+
 });

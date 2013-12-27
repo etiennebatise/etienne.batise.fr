@@ -2,8 +2,8 @@
 <!-- Entête de page -->
 <head>
 	<meta charset="utf-8" />
-	<meta name="keywords" content="Etienne Batise, Batise">
-	<meta name="description" content="Etienne Batise : développeur JAVA et Web, élève ingénieur à l'INSA de Rouen">
+	<meta name="keywords" content=" 'Etienne Batise','Batise','Mattress','Traduction automatique', 'Machine traduction'">
+	<meta name="description" content="Etienne Batise : développeur, musicien et élève ingénieur à l'INSA de Rouen">
 	<meta name="author" content='Etienne Batise'>
 
 	<link rel="stylesheet" type="text/css" href="<?php echo $path_css ?>">
