@@ -4,7 +4,15 @@ $(function(){
 		// On fait une requête get vers le module tip.
 		$.get('index.php?id=tip', function(data){
 			// On récupère la reponse à la requête get.
-			$('#tip').html(data); 
+
+			if(data.length > 20){
+				$('#tip').css('font-size',' 170%');
+				$('#tip').html(data); 
+			}
+			else{
+				$('#tip').css('font-size',' 200%');
+				$('#tip').html(data); 
+			}
 		});
 	}
 	function loop(){

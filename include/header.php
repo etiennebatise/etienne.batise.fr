@@ -22,9 +22,11 @@
 			<span id='pen' class='icon'><img src="res/pen.png" alt="icône de crayon"></span>
 		</div>
 
+		<script src="jq/jquery.js"></script>
+
 		<script src="jq/icon.js"></script>
 
-			<p id="tip"><span class='invisible'>vlan</span></p>
+			<p id="tip"><span class='invisible'>Woop Woop</span></p>
 		<script src="jq/tip.js"></script>
 		
 		<?php 

@@ -34,8 +34,9 @@
 
 	<ul id="idioms" class="cv_bloc">
 		<h1>Langues et Informatique</h1>
-		<li><span class="cv_liste">Programmation : </span>JAVA, C, Pascal, HTML5, CSS3, PHP, SQL</li>
+		<li><span class="cv_liste">Programmation : </span>JAVA, C, Pascal, HTML5, CSS3, PHP, SQL, LaTeX</li>
 		<li><span class="cv_liste">Systèmes : </span>Linux (Debian) - Windows XP, 7</li>
+		<li><span class="cv_liste">Logiciels : </span>Eclipse, Sublime Text 2, Git, Subversion</li>
 		<div class="cv_ligne"></div>
 		<li><span class="cv_liste">Français : </span>Langue maternelle</li>
 		<li><span class="cv_liste">Anglais : </span>Courant</li>
