@@ -4,7 +4,7 @@
 		<article>
 			<p>
 			</p>
-				Matress is a rock-band composed of 4 musicians, Pierre Gadeceau, LeoVy, Baptiste Lefevre, and me (alias GroB). We compose <span class="keywords">our own musics</span> and we like to make covers of famous bands like the Rolling Stones, the White Stripe or Juliette & the Licks. Several representations are planned and you can listen to <span class="keywords">two records</span> on our SoundCloud account.
+				Matress is a rock-band composed of 4 musicians, Pierre Gadeceau, LeoVy, Baptiste Lefevre, and me (alias GroB). We compose <span class="keywords">our own musics</span> and we like to make covers of famous bands like the Rolling Stones, the White Stripes or Juliette & the Licks. Several representations are planned and you can listen to <span class="keywords">two records</span> on our SoundCloud account.
 
 			<p>
 				<a href="https://soundcloud.com/baptiste-lefebvre-1"> -> Listen to our music <- </a>

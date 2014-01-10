@@ -1,5 +1,5 @@
 	<section>
-		<h1>Machine translation study</h1>
+		<h1>Machine translation</h1>
 
 		<article>
 			<p>Few months ago, two classmates and I had to make a research about machine translation. Here is the report of our research.</p>

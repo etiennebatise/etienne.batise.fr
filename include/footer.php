@@ -13,8 +13,8 @@
 		Contact me :
 		<li><a href="https://www.facebook.com/etienne.grosbatise">Facebook</a></li>
 		<li><a href="https://twitter.com/EtienneBatise">Twitter</a></li>
-		<li><a href="#">Bitbucket</a></li>
-		<li><a href="#">Github</a></li>
+		<li><a href="http://www.linkedin.com/profile/view?id=305349004&trk=nav_responsive_tab_profile_pic">LinkedIn</a></li>
+		<li><a href="https://github.com/etiennebatise">Github</a></li>
 	</ul>
 
 </footer>

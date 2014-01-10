@@ -7,7 +7,7 @@
 
 		<article>
 			<p>I'm Etienne Batise. I'm a french student at the <span class="keywords">INSA de Rouen</span> where I learn computer science. I'm also a member of the association <span class="keywords">Quantic Telecom</span> which is an Internet Service Provider.</p>
-			<p>I really like to develop softwares or video-games and I like to learn new programming languages. I 'm also a musician, I've played the percussions for 15 years and I currently play the drums in a band rock.</p>
+			<p>I really like to develop softwares or video-games and I like to learn new programming languages. I 'm also a musician, I've played the percussions for 15 years and I currently play the drums in a rock-band.</p>
 		</article>
 	</section>
 
