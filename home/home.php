@@ -24,7 +24,7 @@
 			</ul>
 	</section>
 
-	<section>
+	<section id="sendMeAnEmail">
 		<h1>Send me an email !</h1>
 
 		<form method="post" action="mail.php">

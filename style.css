@@ -277,19 +277,20 @@ footer ul a:hover
 
 #cv div, #cv ul, #cv ul li
 {
-    clear: both;
-    padding:0;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding:0 40;
     margin : 2px;
 }
 
-#cv .cv_bloc, #cv ul
+#cv ul li
+{
+    margin:20px;
+}
+
+#cv .cv_bloc
+
 {
     margin:10px 0;
     padding:30px;
-    /*padding-top:50px;*/
-    /*border:1px solid blue;*/
     border-radius: 2px;
     background-color: rgba(25, 25, 25, 0.05);
 }
@@ -323,6 +324,26 @@ footer ul a:hover
 .cv_ligne
 {
     border:1px solid #D2D2D2;
+}
+
+.description{
+    background-color: rgb(0,0,0,0);
+}
+
+.description li
+{
+    font-style:italic;
+    font-size: 17px;
+    color:grey;
+    margin:0px ;
+    padding:0px;
+}
+
+.company
+{
+    /*font-weight: bold;*/
+    font-style: italic;
+    color:blue;
 }
 /************************************************************************************/
 /* BLOG */

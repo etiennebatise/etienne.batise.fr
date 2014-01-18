@@ -13,25 +13,41 @@
 
 	<ul id="studies" class="cv_bloc">
 		<h1>Education</h1>
-		<li><span class="cv_liste">2013 - 2016 : </span>Master in Computer Science engineering at INSA (National Institute of Applied Science) Rouen, France</li>
+		<li><span class="cv_liste">2013 - 2016 : </span>Master in Computer Science engineering at INSA (National Institute of Applied Science) Rouen, France
+			<ul class="description">
+				<li>Computer science and algorithms
+				</li>
+				<li>Database and operating system</li>
+				<li>Signal Processing</li>
+			</ul>
+		</li>
+
 		<div class="cv_ligne"></div>
-		<li><span class="cv_liste">2011 - 2013 : </span>Two-year undergraduate foundation course in Engineering Sciences leading to Master's program at INSA de Rouen - International section</li>
+
+		<li><span class="cv_liste">2011 - 2013 : </span>Two-year undergraduate foundation course in Engineering Sciences leading to Master's program at INSA de Rouen - International section
+				<ul class="description">
+				<li>Basic thermodynamics</li>
+				<li>Chemistry</li>
+				<li>Mathematics</li>
+			</ul>
+		</li>
+
+		<div class="cv_ligne"></div>
+
 		<li><span class="cv_liste"> September 2008 - June 2011 : </span>Scientific High School Diploma - English section</li>
 	</ul>
 
-	<div id="exp" class="cv_bloc">
+	<ul id="exp" class="cv_bloc">
 		<h1>Work experience and community life</h1>
-		<div class="cv_exp">
-			To-do
-		</div>
 
-		<div class="cv_exp">
-		</div>
-
-		<div class="cv_exp">
-		</div>
-
-	</div>
+		<li><span class="cv_liste">January 2013 - Today : </span>Project Manager and Relationship manager at <span class="company">Quantic Télecom</span>
+			<ul class="description">
+				<li>Team managing, negociation and client assistance</li>
+				<li>Network basis</li>
+				<li>On site work</li>
+			</ul>
+		</li>
+	</ul>
 
 	<ul id="idioms" class="cv_bloc">
 		<h1>Idioms and skills</h1>
@@ -47,13 +63,18 @@
 	<ul id="hobbies" class="cv_bloc">
 		<h1>Hobbies</h1>
 		<li><span class="cv_liste">Musique : </span>Percussions studies at the National Conservatory of Music and Dance of Châteauroux</li>
+
+		<div class="cv_ligne"></div>
+
 		<li><span class="cv_liste">Sport : </span>Climbing with the sprots associaiton of the INSA de Rouen</li>
 		<!-- <li><span class="cv_liste"> :</span></li> -->
 	</ul>
 
-	<div id="contact" class="cv_bloc">	
-		To-do
-	</div>
+	<ul id="contact" class="cv_bloc">	
+		<h1>Contact</h1>
+		<li>For any information : <a href="<?php echo $path ?>#sendMeAnEmail">Click Here</a></li>
+		<li>For any question relative to Quantic Télécom : <a href="mailto:etienne.batise@quantic-telecom.net">etienne.batise@quantic-telecom.net</A></li>
+	</ul>
 
 	<div></div>
 </section>
