@@ -1,14 +1,20 @@
 	<section>
-		<h1>Machine translation</h1>
-
+		<h1>Spell Checker</h1>
 		<article>
-			<p>Few months ago, two classmates and I had to make a research about machine translation. Here is the report of our research.</p>
 			<p>
-				<a href="home/res/trad-auto.pdf">-> Report (in french) <-</a>
+				During the last three months, three classmates an I had to code a Spellchecker very similar to the software aspell available on Linux distributions. The sowftare was developped in C. The analysis, the conception and the code are detailed in the report.
+			</p>
+
+			<p>
+				<a href="home/res/asispell.pdf"> -> Report (in french) <- </a>
+			</p>
+
+			<p>
+				Please check-out our GitHub repo ! 
+				<a href="https://github.com/AntoineAugusti/correcteur-orthographique"> 	Click here !</a>
 			</p>
 		</article>
-	</section>
-
+	</section>	
 	<section>
 		<h1>Line Follower Robot : DRUMS</h1>
 		<article>
@@ -21,3 +27,15 @@
 		</article>
 		<iframe width="560" height="315" src="//www.youtube.com/embed/QlCm5zwxNKs" frameborder="0" allowfullscreen></iframe>
 	</section>
+
+	<section>
+		<h1>Machine translation</h1>
+
+		<article>
+			<p>Few months ago, two classmates and I had to make a research about machine translation. Here is the report of our research.</p>
+			<p>
+				<a href="home/res/trad-auto.pdf">-> Report (in french) <-</a>
+			</p>
+		</article>
+	</section>
+

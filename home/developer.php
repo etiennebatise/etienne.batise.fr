@@ -24,7 +24,7 @@
 			</p>
 
 			<p>
-				<a href="#"> -> Discover the game <- </a>
+				<a href="#"> -> The demo is comming really really soon!  <- </a>
 			</p>
 		</article>
 

@@ -13,7 +13,7 @@
 
 <body>
 	<header>
-
+		<script src='jq/jquery.js'></script>
 		<div id="images">
 			<span id='dev' class='icon'><img src="res/laptop.png" alt="icône de laptop"></span>
 			

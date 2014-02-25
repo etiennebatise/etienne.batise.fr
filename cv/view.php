@@ -66,14 +66,14 @@
 
 		<div class="cv_ligne"></div>
 
-		<li><span class="cv_liste">Sport : </span>Climbing with the sprots associaiton of the INSA de Rouen</li>
+		<li><span class="cv_liste">Sport : </span>Climbing with the sports association at INSA de Rouen</li>
 		<!-- <li><span class="cv_liste"> :</span></li> -->
 	</ul>
 
 	<ul id="contact" class="cv_bloc">	
 		<h1>Contact</h1>
 		<li>For any information : <a href="<?php echo $path ?>#sendMeAnEmail">Click Here</a></li>
-		<li>For any question relative to Quantic Télécom : <a href="mailto:etienne.batise@quantic-telecom.net">etienne.batise@quantic-telecom.net</A></li>
+		<li>For any question relative to Quantic Télécom : etienne[point]batise[at]quantic-telecom[point]net</li>
 	</ul>
 
 	<div></div>
