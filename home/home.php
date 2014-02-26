@@ -52,10 +52,4 @@
 		</form>
 
 	</section>
-<!-- 	<section>
-		<h1>Derniers articles</h1>
-		<?php
-			print_table($tickets, 'other');
-			?> 
-
-		</section>-->
+	

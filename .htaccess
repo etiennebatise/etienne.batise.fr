@@ -4,12 +4,4 @@ DirectoryIndex index.php
 
 RewriteEngine on
 
-RewriteRule blog/([0-9]+) index.php?id=blog&post=$1
-
-RewriteRule blog/ index.php?id=blog
-
 RewriteRule cv/ index.php?id=cv
-
-RewriteRule admin/([a-zA-Z0-9]+) index.php?id=admin&part=$1
-
-RewriteRule admin index.php?id=admin
