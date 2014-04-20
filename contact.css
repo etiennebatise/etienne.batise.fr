@@ -1,0 +1,134 @@
+@import url("general.css");
+@import url("nav.css");
+
+/************************************************************************************/
+/* Général */
+/************************************************************************************/
+
+
+body
+{
+	display:flex;
+	flex-direction:column;
+	background: url("res/eiffel.jpg") no-repeat center center fixed;
+	background-position: center top;
+	/*background-size: 100%;*/
+	font-family: 'Exo', sans-serif;
+	margin:0px;
+	height: 100%;
+	min-height : 100%;
+	padding:0;
+}
+
+section
+{
+	height:100%;
+	display: flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	margin: 10% 0;
+	color:#ecf0f1;
+}
+
+.bla {
+	width:100%;
+}
+
+
+p 
+{
+	text-align: center;
+	margin: 0;
+	padding: 0 20%;
+	font-size:20px;
+}
+
+#id_img 
+{
+	margin:0;
+	padding: 0;
+	width:150px;
+	height:150px;
+
+	background: url("res/etienne_detoure.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;
+	border-radius: 360px;
+	border : 1px solid #ecf0f1;
+}
+
+
+#list
+{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content:space-around;
+	align-items:space-around;
+	width:50%;
+}
+
+#list a 
+{
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:150px;
+	margin: 5px;
+	transition-property:visibility;
+	transition-duration:0.5s;
+}
+
+#list img 
+{
+	border: 1px solid #ecf0f1;
+	border-radius: 180px;
+	background-color: rgba(25, 25, 25, 0.5);
+	height:70%;
+	transition-property:background-color, color;
+	transition-duration:0.4s;
+	transition-timing-function:ease;
+}
+
+#list img:hover{
+	background-color : rgba(127, 140, 141, 0.5);
+	color:black;
+}
+
+#list a span 
+{
+	visibility: hidden;
+	z-index: 100;
+	color:#ecf0f1;
+	/*position: absolute;*/
+	transition-property:visibility;
+    transition-duration: 0.3s;
+    -webkit-transition: 0.3s ease-out;
+	top:-50px;
+}
+
+#twitter:hover span
+{
+	visibility: visible;
+	/*-webkit-transition: 0.8s ease-out;*/
+}
+#github:hover span
+{
+	visibility: visible;
+	-webkit-transition: 0.8s ease-out;
+}
+#linkedin:hover span
+{
+	visibility: visible;
+	-webkit-transition: 0.8s ease-out;
+}
+
+#itsme 
+{
+	font-size: 30px;
+}
+
+#mail {
+	color:#2c3e50;
+}
