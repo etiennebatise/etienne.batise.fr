@@ -37,19 +37,16 @@
 
 		<div id="list" class="bla">
 
-			<a id="twitter" target="_blank" href="https://twitter.com/EtienneBatise">
-				<img src="res/twitter.png" alt="Twitter">
-				<!-- <span>Twitter</span> -->
+			<a target="_blank" href="https://twitter.com/EtienneBatise">
+				<img src="res/twitter.png" alt="Twitter"/>
 			</a>
 
-			<a id="github"  target="_blank" href="https://github.com/etiennebatise">
-				<img src="res/github.png" alt="Github">
-				<!-- <span>GitHub</span> -->
+			<a target="_blank" href="https://github.com/etiennebatise">
+				<img src="res/github.png" alt="Github"/>
 			</a>
 
-			<a id="linkedin"  target="_blank" href="http://fr.linkedin.com/pub/etienne-batise/86/316/724">
-				<img src="res/linkedin.png" alt="Linked">
-				<!-- <span>LinkedIn</span> -->
+			<a target="_blank" href="http://fr.linkedin.com/pub/etienne-batise/86/316/724">
+				<img src="myphoto.png" alt="LinkedIn"/>
 			</a>
 		</div>
 	
