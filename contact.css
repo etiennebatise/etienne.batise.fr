@@ -27,12 +27,8 @@ section
 {
 	height:100%;
 	width: 100%;
-/*	display: flex;
-	flex-flow:row wrap;
-	justify-content:center;
-	*/	
 	text-align: center;
-margin: 10% 0;
+	margin: 10% 0;
 	color:#ecf0f1;
 }
 
@@ -64,29 +60,12 @@ p
 {
 	text-align: center;
 	width:50%;
-/*	display: flex;
-	flex-flow:row wrap;
-	justify-content:space-around;
-	align-items:space-around;
-	width:50%;*/
 }
 
 #list a 
 {
-	/*display: flex;*/
-	/*flex-direction:column;*/
-	/*justify-content:center;*/
-	/*align-items:center;*/
-	/*height:150px;*/
-	/*height:35%;*/
-	/*margin: 5px;*/
 	margin:0;
 	padding:0;
-/*	border:1px solid black;
-	transition-property:visibility;
-	transition-duration:0.5s;*/
-
-
 }
 
 #list img 
@@ -95,7 +74,6 @@ p
 	border-radius: 180px;
 	background-color: rgba(25, 25, 25, 0.5);
 
-	/*height:50%;*/
 	margin:20px;
 	padding:0;
 	width:25%;
