@@ -28,10 +28,7 @@
 	</header>
 
 	<section>
-		<!-- <img id="id_img" src="res/etienne_detoure.png" alt="photo"> -->
-		<!-- <div id="pers">
-		</div>
-		 -->
+		<center>
 		<div id="id_img" class="bla"></div>
 		<p class="bla">Hey ! It's me again. You can contact me from many places througt the Internet.</p>
 		<p class="bla">Choose your favorite : </p>
@@ -52,7 +49,7 @@
 		</div>
 	
 		<p id ="itsme" class="bla">Feel free to contact me at <br /><span id="mail">etienne [dot] batise [@] gmail [dot] com! </span></p>
-
+</center>
 	</section>
 
 </body>
