@@ -50,8 +50,7 @@ p
 	width:150px;
 	height:150px;
 
-	background: url("res/etienne_detoure.png");
-	background-repeat: no-repeat;
+	background: url("res/etienne_detoure.png") no-repeat center center fixed;
 	background-position: top center;
 	/*background-size: 100%;*/
 	-webkit-background-size: cover;
