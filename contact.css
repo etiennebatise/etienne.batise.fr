@@ -36,8 +36,8 @@ section
 
 .bla {
 	width:100%;
+	margin-top: 5%;
 }
-
 
 p 
 {
@@ -65,23 +65,31 @@ p
 
 #list
 {
-	display: flex;
+	text-align: center;
+	width:50%;
+/*	display: flex;
 	flex-flow:row wrap;
 	justify-content:space-around;
 	align-items:space-around;
-	width:50%;
+	width:50%;*/
 }
 
 #list a 
 {
-	display: flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;
-	height:150px;
-	margin: 5px;
+	/*display: flex;*/
+	/*flex-direction:column;*/
+	/*justify-content:center;*/
+	/*align-items:center;*/
+	/*height:150px;*/
+	/*height:35%;*/
+	/*margin: 5px;*/
+	margin:0;
+	padding:0;
+/*	border:1px solid black;
 	transition-property:visibility;
-	transition-duration:0.5s;
+	transition-duration:0.5s;*/
+
+
 }
 
 #list img 
@@ -89,7 +97,12 @@ p
 	border: 1px solid #ecf0f1;
 	border-radius: 180px;
 	background-color: rgba(25, 25, 25, 0.5);
-	height:70%;
+
+	/*height:50%;*/
+	margin:20px;
+	padding:0;
+	width:25%;
+	min-width: 100px;
 	transition-property:background-color, color;
 	transition-duration:0.4s;
 	transition-timing-function:ease;
