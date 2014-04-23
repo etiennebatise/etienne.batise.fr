@@ -18,12 +18,13 @@ nav a
 {
 	transition-property:color;
 	transition-duration:0.4s;
-	color:#939291;
+	color:#bdc3c7;
 	width:10%;
 }
 
 nav a:hover
 {
+	color:#ecf0f1;
 	color:rgb(200, 200, 200);
 }
 

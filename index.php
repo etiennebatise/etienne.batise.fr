@@ -7,7 +7,7 @@
     <meta name="description" content="Etienne Batise : développeur, musicien et élève ingénieur à l'INSA de Rouen">
     <meta name="author" content='Etienne Batise'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" type="image/x-icon" href="res/etienne-id.jpg">
     <link href='http://fonts.googleapis.com/css?family=Exo:400,300' rel='stylesheet' type='text/css'>
@@ -19,7 +19,9 @@
         <nav>
             <a id='home' href="/">Home</a>
             <!--<a href="<?php echo $path_blog ?>">Blog</a> -->
-            <a href="/cv.php">CV</a>
+
+            <!-- <a href="/cv.php">CV</a> -->
+
             <!--<a href="#">Other</a> -->
             <a id='home' href="/contact.php">Contact</a>
         </nav>
@@ -36,7 +38,7 @@
 
             <div class="case">
                 <img src="/res/network.png">
-                <p>I am also the relationship manager of <span class="keyword">Quantic Télécom</span> which is an french Internet Service Provider.</p>
+                <p>I am also the relationship manager of <span class="keyword">Quantic Télécom</span> which is an french ISP.</p>
             </div>
 
             <div class="case">

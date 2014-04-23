@@ -19,7 +19,9 @@
 		<nav>
 			<a id='home' href="/">  Home </a>
 			<!--<a href="<?php echo $path_blog ?>">Blog</a> -->
-			<a href="/cv/view.php">  CV   </a>
+
+			<!-- <a href="/cv/view.php">  CV   </a> -->
+			
 			<!--<a href="#">Other</a> -->
 			<a id='home' href="/contact.php">Contact</a>
 		</nav>
@@ -31,7 +33,7 @@
 		<center>
 		<div id="id_img" class="bla"></div>
 		<p class="bla">Hey ! It's me again. You can contact me from many places througt the Internet.</p>
-		<p class="bla">Choose your favorite : </p>
+		<p class="bla">Choose your favorite: </p>
 
 		<div id="list" class="bla">
 
