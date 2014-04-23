@@ -6,7 +6,8 @@
     <meta name="keywords" content=" 'Etienne Batise','Batise','Mattress', 'Quantic Télécom, 'Insa de Rouen', 'Programmation'">
     <meta name="description" content="Etienne Batise : développeur, musicien et élève ingénieur à l'INSA de Rouen">
     <meta name="author" content='Etienne Batise'>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" type="image/x-icon" href="res/etienne-id.jpg">
     <link href='http://fonts.googleapis.com/css?family=Exo:400,300' rel='stylesheet' type='text/css'>

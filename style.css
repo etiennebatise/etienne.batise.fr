@@ -7,6 +7,10 @@ body
 	flex-direction:column;
 	background: url("res/rainbow.jpg") no-repeat center center fixed;
 	background-position: center top;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
 	font-family: 'Exo', sans-serif;
 	margin:0px;
 	height: 100%;

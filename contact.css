@@ -53,7 +53,12 @@ p
 	background: url("res/etienne_detoure.png");
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-size: 100%;
+	/*background-size: 100%;*/
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+
 	border-radius: 360px;
 	border : 1px solid #ecf0f1;
 }
