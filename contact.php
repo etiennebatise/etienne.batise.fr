@@ -18,11 +18,6 @@
 	<header>
 		<nav>
 			<a id='home' href="/">  Home </a>
-			<!--<a href="<?php echo $path_blog ?>">Blog</a> -->
-
-			<!-- <a href="/cv/view.php">  CV   </a> -->
-			
-			<!--<a href="#">Other</a> -->
 			<a id='home' href="/contact.php">Contact</a>
 		</nav>
 

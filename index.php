@@ -18,11 +18,6 @@
     <header>
         <nav>
             <a id='home' href="/">Home</a>
-            <!--<a href="<?php echo $path_blog ?>">Blog</a> -->
-
-            <!-- <a href="/cv.php">CV</a> -->
-
-            <!--<a href="#">Other</a> -->
             <a id='home' href="/contact.php">Contact</a>
         </nav>
 
@@ -38,7 +33,7 @@
 
             <div class="case">
                 <img src="/res/network.png">
-                <p>I am also the relationship manager of <span class="keyword">Quantic Télécom</span> which is an french ISP.</p>
+                <p>I am also the relationship manager of the french ISP <span class="keyword">Quantic Télécom</span> </p>
             </div>
 
             <div class="case">
