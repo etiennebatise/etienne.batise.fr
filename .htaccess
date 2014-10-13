@@ -1,7 +1,0 @@
-# en prod mettre un / devant les index
-
-DirectoryIndex index.php
-
-RewriteEngine on
-
-RewriteRule cv/ index.php?id=cv
