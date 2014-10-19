@@ -63,16 +63,25 @@ $.fn.triggerEvent = function(number) {
 
 // Main js script
 $(function() {
+    // TODO Refactor this in the triggerEvent function
     // A counter of events triggered 
     var counter = 0;
+    var timeout =false;
 
     // First we trigger the first typed. It will display the section about my experience
     $(document).easyTyped("exp");
+    setTimeout(function() {
+        timeout = true;
+    }, 2000);
 
     // Next the events are triggered by pressing enter or clicking on a "link"
     $(document).keypress(function(e) {
-        if (e.which == 13) {
+        if ((e.which == 13) && (timeout)) {
             counter = $(document).triggerEvent(counter);
+            timeout = false;
+            setTimeout(function() {
+                timeout = true;
+            }, 1000);
         }
     });
 
