@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <meta name="charset" content="'Etienne Batise', 'Batise', 'Quantic-Télécom', 'Quantic-Telecom', 'Quantic Telecom', 'Quantic Télécom', 'Insa de Rouen', 'CheckTaRoute'">
@@ -11,10 +12,18 @@
         <!-- Google Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
 
-         <!-- Bootstrap -->
-         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <!-- Bootstrap -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="bootstrap/css/bootstrap-responsive.min.css
+        " rel="stylesheet" media="screen">
 
         <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8">
+
+
+        <script src="js/jquery.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/jquery-scrollTo.js"></script>
+        <script src="js/app.js"> </script>
 
         <title>Etienne Batise</title>
 
@@ -22,27 +31,13 @@
 
     <body>
 
-        <script src="js/jquery.js"></script>
-        <script src="js/typed.js"></script>
-
-        <script type="text/javascript" charset="utf-8">
-$(function() {
-    $("#exp").typed({
-        strings: ["cat my_experience.txt"],
-        typeSpeed: 0,
-        startDelay: 1,
-        showCursor: true,
-        callback: function(){$("#sectionExp").show();}
-    });
-});
-        </script>
-
         <div class="row-fluid">
             <div class="span10 offset1" id="mainframe">
 
                 <nav>
                     <div id="pwd" class="row-fluid">
-                        <a href="#" >cd <span>~/</span>.config<span>/</span>etienne</a>
+                        <!--<a href="#" >cd <span>~/</span>.config<span>/</span>etienne</a>-->
+                        <a href="#" > <span>~/</span>.config<span>/</span>etienne</a>
                     </div>
 
                     <div id="quote" class="row-fluid">
@@ -51,32 +46,59 @@ $(function() {
                 </nav>
 
 
-               <section  class="row-fluid">
-                   <h1 id="h-exp">
-                       <span class="chevron"> > </span>
-                       <span id="exp"></span>
-                   </h1>
-                   
-                  <div id="sectionExp" class="sectionText"> 
-                   <article class="span5">
-                      <h2>Student at Insa Rouen :</h2> 
-                       <!--lorem-->
-                       <p>Volutpat ac, sollicitudin sed, arcu. Aenean vel mauris. Mauris tincidunt. Nullam euismod odio at velit. Praesent elit purus, porttitor id, facilisis in, consequat ut, libero. Morbi imperdiet, magna quis ullamcorper malesuada, mi massa pharetra lectus, a pellentesque urna urna id turpis. Nam posuere lectus vitae nibh. Etiam tortor orci, sagittis malesuada, rhoncus quis, hendrerit eget, libero. Quisque commodo nulla at nunc. Mauris consequat, enim vitae venenatis sollicitudin, dolor orci bibendum enim, a sagittis nulla nunc quis elit. Phasellus augue. Nunc suscipit, magna tincidunt lacinia faucibus, lacus tellus ornare purus, a pulvinar lacus orci eget nibh. Maecenas sed nibh non lacus tempor.</p>
-                       <!--/lorem-->
+                <section id="firstSection" class="container-fluid">
+                    <h1 id="h-exp">
+                        <span class="chevron"> > </span>
+                        <span id="exp"></span>
+                    </h1>
 
-                   </article> 
-                   <article class="span5 offset2">
-                      <h2>Quantic Télécom :</h2> 
-                       <!--lorem-->
-                       <p>Volutpat ac, sollicitudin sed, arcu. Aenean vel mauris. Mauris tincidunt. Nullam euismod odio at velit. Praesent elit purus, porttitor id, facilisis in, consequat ut, libero. Morbi imperdiet, magna quis ullamcorper malesuada, mi massa pharetra lectus, a pellentesque urna urna id turpis. Nam posuere lectus vitae nibh. Etiam tortor orci, sagittis malesuada, rhoncus quis, hendrerit eget, libero. Quisque commodo nulla at nunc. Mauris consequat, enim vitae venenatis sollicitudin, dolor orci bibendum enim, a sagittis nulla nunc quis elit. Phasellus augue. Nunc suscipit, magna tincidunt lacinia faucibus, lacus tellus ornare purus, a pulvinar lacus orci eget nibh. Maecenas sed nibh non lacus tempor.</p>
-                       <!--/lorem-->
+                    <div id="sectionExp" class="row-fluid sectionText"> 
+                        <article class="span6">
+                            <h2>Game in progress :</h2> 
+                            <!--lorem-->
+                            <p>Volutpat ac, sollicitudin sed, arcu. Aenean vel mauris. Mauris tincidunt. Nullam euismod odio at velit. Praesent elit purus, porttitor id, facilisis in, consequat ut, libero. Morbi imperdiet, magna quis ullamcorper malesuada, mi massa pharetra lectus, a pellentesque urna</p><p> urna id turpis. Nam posuere lectus vitae nibh. Etiam tortor orci, sagittis malesuada, rhoncus quis, hendrerit eget, libero. Quisque commodo nulla at nunc. Mauris consequat, enim vitae venenatis sollicitudin, dolor orci bibendum enim, a sagittis nulla nunc quis elit. Phasellus augue. Nunc suscipit, magna tincidunt lacinia faucibus, lacus tellus ornare purus, a pulvinar lacus orci eget nibh. Maecenas sed nibh non lacus tempor.</p>
+                            <!--/lorem-->
 
-                   </article> 
-                  </div> 
-               </section> 
+                        </article> 
+                        <article class="span6">
+                            <h2>Quantic Telecom :</h2> 
+                            <!--lorem-->
+                            <p>Volutpat ac, sollicitudin sed, arcu. Aenean vel mauris. Mauris tincidunt. Nullam euismod odio at velit. Praesent elit purus, porttitor id, facilisis in, consequat ut, libero. Morbi imperdiet, magna quis ullamcorper malesuada, mi massa pharetra lectus, a pellentesque urna urna id turpis. Nam posuere lectus vitae nibh. Etiam tortor orci, sagittis malesuada, rhoncus quis, hendrerit eget, libero. Quisque commodo nulla at nunc. Mauris consequat, enim vitae venenatis sollicitudin, dolor orci bibendum enim, a sagittis nulla nunc quis elit. Phasellus augue. Nunc suscipit, magna tincidunt lacinia faucibus, lacus tellus ornare purus, a pulvinar lacus orci eget nibh. Maecenas sed nibh non lacus tempor.</p>
+                            <!--/lorem-->
 
+                        </article> 
+                    </div> 
+                    <aside id="asideExp">
+                       Press Enter or click here to see what's next ^_^
+                    </aside>
+                </section> 
+
+                <section id="secondSection" class="container-fluid">
+                    <h1 id="h-hob">
+                        <span class="chevron"> > </span>
+                        <span id="hob"></span>
+                    </h1>
+
+                    <div id="sectionHob" class="row-fluid sectionText"> 
+                        <article class="span6">
+                            <h2>Programming and Testing stuff :</h2> 
+                            <!--lorem-->
+                            <p>Volutpat ac, sollicitudin sed, arcu. Aenean vel mauris. Mauris tincidunt. Nullam euismod odio at velit. Praesent elit purus, porttitor id, facilisis in, consequat ut, libero. Morbi imperdiet, magna quis ullamcorper malesuada, mi massa pharetra lectus, a pellentesque urna urna id turpis. Nam posuere lectus vitae nibh. Etiam tortor orci, sagittis malesuada, rhoncus quis, hendrerit eget, libero. Quisque commodo nulla at nunc. Mauris consequat, enim vitae venenatis sollicitudin, dolor orci bibendum enim, a sagittis nulla nunc quis elit. Phasellus augue. Nunc suscipit, magna tincidunt lacinia faucibus, lacus tellus ornare purus, a pulvinar lacus orci eget nibh. Maecenas sed nibh non lacus tempor.</p>
+                            <!--/lorem-->
+
+                        </article> 
+                        <article class="span6">
+                            <h2>Musician and Drummer :</h2> 
+                            <!--lorem-->
+                            <p>Volutpat ac, sollicitudin sed, arcu. Aenean vel mauris. Mauris tincidunt. Nullam euismod odio at velit. Praesent elit purus, porttitor id, facilisis in, consequat ut, libero. Morbi imperdiet, magna quis ullamcorper malesuada, mi massa pharetra lectus, a pellentesque urna urna id turpis. Nam posuere lectus vitae nibh. Etiam tortor orci, sagittis malesuada, rhoncus quis, hendrerit eget, libero. Quisque commodo nulla at nunc. Mauris consequat, enim vitae venenatis sollicitudin, dolor orci bibendum enim, a sagittis nulla nunc quis elit. Phasellus augue. Nunc suscipit, magna tincidunt lacinia faucibus, lacus tellus ornare purus, a pulvinar lacus orci eget nibh. Maecenas sed nibh non lacus tempor.</p>
+                            <!--/lorem-->
+                        </article> 
+                    </div> 
+                    <aside id="asideHob">
+                        Want to know more ? [Enter] 
+                    </aside>
+                </section> 
             </div>
-
         </div>
 
 
