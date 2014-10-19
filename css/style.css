@@ -54,7 +54,7 @@ html {
 }
 
 html body {
-    height:2000px;
+    height:auto;
     /*height: 270%;*/
     overflow: hidden;
 }
