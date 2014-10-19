@@ -31,6 +31,8 @@ $.fn.triggerEvent = function(number) {
     // If the key is 'Enter' and we can still display things
     if ((number < 2)) {
 
+        $('body').css('height', '200%');
+
         // The first time, we display the cool stuff section
         if( number === 0 ) {
             $('#secondSection').css('visibility', 'visible');
