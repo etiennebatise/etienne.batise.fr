@@ -109,7 +109,7 @@ section .sectionText {
     display:none;
 }
 
-#secondSection {
+#secondSection, #thirdSection {
     visibility: hidden;
 }
 
@@ -151,6 +151,16 @@ section aside {
     visibility: hidden;
     cursor: pointer;
 }
+
+#sectionCon article {
+    text-align: center;
+    font-style: italic;
+}
+
+#sectionCon article div {
+    text-align: left;
+}
+
 /*
  * Blinking cursor with Typed.js
  */
