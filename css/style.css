@@ -54,7 +54,7 @@ html {
 }
 
 html body {
-    height:auto;
+    height: 80%;
     /*height: 270%;*/
     overflow: hidden;
 }
@@ -157,10 +157,39 @@ section aside {
     font-style: italic;
 }
 
+.row-fluid .link {
+    display: none;
+}
+
+.row-fluid a {
+    text-decoration: none;
+}
+
 #sectionCon article div {
     text-align: left;
 }
 
+#sectionCon article div #githubCase {
+    text-align: left;
+}
+
+#linkOnTwitter:hover > pre,#linkOnGithub:hover > pre,#linkOnLinkedin:hover > pre {
+   color: blue; 
+}
+
+#in, #tw, #gh {
+    display:none;
+}
+
+pre {
+    background: none;
+    border: none;
+}
+
+#githubAscii, #twitterAscii, #linkedinAscii {
+    font-size: 8px;
+    line-height: 8px;
+}
 /*
  * Blinking cursor with Typed.js
  */

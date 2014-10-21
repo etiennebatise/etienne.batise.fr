@@ -27,8 +27,31 @@ $.fn.easyTyped = function(tag) {
         callback   : function() {
             $(subsection).delay(500).show(0);
             setTimeout( function() {
-                if ( !(tag === "null") )
+                if ( !(subaside === "null") )
                     $(subaside).css('visibility', 'visible');
+                else {
+                    $('#twitterLink').shuffleLetters({"text": "twitter.com/EtienneBatise"});
+                    $('#githubLink').shuffleLetters({"text": "github.com/etiennebatise"});
+                    $('#linkedinLink').shuffleLetters({"text": "linkedin.com/etiennebatise"});
+                    $('#twitterAscii').shuffleLetters(
+                            {
+                                "text" : $("#tw").text(),
+                                "step" : 4,
+                                "fps" : 250
+                            });
+                    $('#githubAscii').shuffleLetters(
+                            {
+                                "text" : $("#gh").text(),
+                                "step" : 2,
+                                "fps" : 950
+                            });
+                    $('#linkedinAscii').shuffleLetters(
+                            {
+                                "text" : $("#in").text(),
+                                "step" : 4,
+                                "fps" : 250
+                            });
+                }
             }, 500);
         }
     });
@@ -66,17 +89,10 @@ $.fn.triggerEvent = function(number) {
             $('#thirdSection').css('visibility', 'visible');
             $('html, body').scrollTo('#thirdSection',scrollToSettings);
             $(document).easyTyped("con");
-            /*
-             *setTimeout( function() { $('body').css('height', 'auto'); }, 6000);
-             */
-            
         }
         number++;
     }
-
-
     return number;
-
 };
 
 // Main js script
