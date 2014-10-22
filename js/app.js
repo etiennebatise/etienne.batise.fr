@@ -2,19 +2,19 @@ $.fn.easyTyped = function(tag) {
     if (tag === "exp") {
         var text       = "cat my_experience";
         var target     = "#exp";
-        var subsection = "#sectionExp";
-        var subaside   = "#asideExp";
+        var subsection = "#section-exp";
+        var subaside   = "#aside-exp";
     }
     else if(tag == "hob") {
         var target     = "#hob";
         var text       = "cat cool_stuff";
-        var subsection = "#sectionHob";
-        var subaside   = "#asideHob";
+        var subsection = "#section-hob";
+        var subaside   = "#aside-hob";
     }
     else if(tag == "con") {
         var target     = "#con";
         var text       = "ls etienne/contact_options";
-        var subsection = "#sectionCon";
+        var subsection = "#section-con";
         var subaside   = "null";
     }
 
@@ -30,26 +30,23 @@ $.fn.easyTyped = function(tag) {
                 if ( !(subaside === "null") )
                     $(subaside).css('visibility', 'visible');
                 else {
-                    $('#twitterLink').shuffleLetters({"text": "twitter.com/EtienneBatise"});
-                    $('#githubLink').shuffleLetters({"text": "github.com/etiennebatise"});
-                    $('#linkedinLink').shuffleLetters({"text": "linkedin.com/etiennebatise"});
                     $('#twitterAscii').shuffleLetters(
                             {
-                                "text" : $("#tw").text(),
+                          "text" : $("#tw").text(),
                                 "step" : 4,
-                                "fps" : 250
+                                "fps" : 100
                             });
                     $('#githubAscii').shuffleLetters(
                             {
                                 "text" : $("#gh").text(),
-                                "step" : 2,
-                                "fps" : 950
+                                "step" : 1,
+                                "fps" : 250
                             });
                     $('#linkedinAscii').shuffleLetters(
                             {
                                 "text" : $("#in").text(),
                                 "step" : 4,
-                                "fps" : 250
+                                "fps" : 130
                             });
                 }
             }, 500);
@@ -78,16 +75,16 @@ $.fn.triggerEvent = function(number) {
         // The first time, we display the cool stuff section
         if ( number === 1 ) {
             $('body').css('height', $(document).heightCss(1.95));
-            $('#secondSection').css('visibility', 'visible');
-            $('html, body').scrollTo('#secondSection', scrollToSettings);
+            $('#second-section').css('visibility', 'visible');
+            $('html, body').scrollTo('#second-section', scrollToSettings);
             $(document).easyTyped("hob");
         }
 
         // The second time we display the contact section
         else if ( number === 2 ) {
             $('body').css('height', $().heightCss(2.65));
-            $('#thirdSection').css('visibility', 'visible');
-            $('html, body').scrollTo('#thirdSection',scrollToSettings);
+            $('#third-section').css('visibility', 'visible');
+            $('html, body').scrollTo('#third-section',scrollToSettings);
             $(document).easyTyped("con");
         }
         number++;
@@ -115,7 +112,7 @@ $(function() {
         }
     });
 
-    $('#asideExp, #asideHob').click(function() {
+    $('#aside-exp, #aside-hob').click(function() {
             counter = $(document).triggerEvent(counter);
     });
 });

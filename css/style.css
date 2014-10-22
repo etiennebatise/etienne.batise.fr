@@ -62,7 +62,7 @@ html body {
 /*
  * Class that will contain everything
  */
-#mainframe {
+main {
     background-color:white;
     height:100%;
 }
@@ -100,16 +100,16 @@ nav div {
 
 
 /*
- * Text Sections
+ * Text -sections
  */
 section {
     margin: 20px;
 }
-section .sectionText {
+section .section-text {
     display:none;
 }
 
-#secondSection, #thirdSection {
+#second-section, #third-section {
     visibility: hidden;
 }
 
@@ -145,6 +145,9 @@ section article p {
     line-height:25px;
 }
 
+/*
+ *The small indication to follow the navigation.
+ */
 section aside {
     font-family: courier, serif;
     font-style: italic;
@@ -152,7 +155,10 @@ section aside {
     cursor: pointer;
 }
 
-#sectionCon article {
+/*
+ *Special style for the Contact section
+ */
+#section-con article {
     text-align: center;
     font-style: italic;
 }
@@ -161,19 +167,22 @@ section aside {
     display: none;
 }
 
+/*
+ *TODO change that
+ */
 .row-fluid a {
     text-decoration: none;
 }
 
-#sectionCon article div {
+#section-con article div {
     text-align: left;
 }
 
-#sectionCon article div #githubCase {
-    text-align: left;
-}
+/*#section-con article div #githubCase {*/
+    /*text-align: left;*/
+/*}*/
 
-#linkOnTwitter:hover > pre,#linkOnGithub:hover > pre,#linkOnLinkedin:hover > pre {
+#twitter-link:hover > pre,#github-link:hover > pre,#linkedin-link:hover > pre {
    color: blue; 
 }
 
@@ -189,6 +198,16 @@ pre {
 #githubAscii, #twitterAscii, #linkedinAscii {
     font-size: 8px;
     line-height: 8px;
+}
+#githubAscii {
+    color: #4183C4;
+}
+#linkedinAscii {
+    color: #1985BC;
+}
+
+#twitterAscii {
+    color: #55ACEE;
 }
 /*
  * Blinking cursor with Typed.js
