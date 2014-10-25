@@ -1,0 +1,188 @@
+@import (inline) 'imports.css';
+@import (inline) 'cursor.css';
+
+@import (less) 'values.less';
+
+/*
+ * Classes
+ */
+.invisible {
+    visibilty : hidden;
+}
+
+.courierBlackBold {
+    font-family:courier;
+    font-weight:bold;
+    color:black;
+}
+
+.chevron {
+    font-family: courier, serif;
+    font-weight: bold;
+    color : red;
+}
+
+.innerNavMargin {
+    margin: 15px 0px;
+}
+
+.highlight {
+    font-style: @nice-highlight;
+    color: @nice-blue;
+}
+
+.prettyText {
+    hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+}
+
+/*
+ * Main document
+ */
+* {
+    padding:0;
+    margin:0;
+    height: auto;
+}
+
+html {
+    height: 100%;
+
+    body {
+        height: 80%;
+        overflow: hidden;
+
+        main {
+            background-color:white;
+            height:100%;
+        }
+    }
+}
+
+
+nav {
+    margin: 30px 0px 0px 0px;
+
+    div {
+        .innerNavMargin;
+    }
+
+    #pwd a {
+        .courierBlackBold;
+        font-size: @pwd-font-size;
+
+        span {
+            color: @path-symbol-color;
+        }
+    }
+
+    #quote {
+        font-family: @quote-font;
+        text-align:right;
+
+        span {
+            font-style:italic;
+        }
+    }
+}
+
+
+section {
+    /*margin: 20px;*/
+
+    // Not used : section-text
+
+    h1 {
+        .courierBlackBold;
+        font-size: @section-h1-font-size;
+    }
+
+    div {
+        display: none;
+        article {
+            .prettyText;
+            font-family: @aside-font;
+
+            h2 {
+                /*font-family: Merriweather, serif;*/
+                font-size: @article-h2-font-size;
+                font-style: italic;
+                text-align: center;
+
+            }
+            p {
+                font-size: @article-p-font-size;
+                line-height: @article-p-line-height;
+                a {
+                    text-decoration: none;
+                    color: @article-a-color;
+                           &:hover {
+                               text-decoration: none;
+color: @article-a-hover-color;
+                           }
+                }
+            }
+            ul {
+                list-style-type: none;
+                li {
+                    .courierBlackBold;
+                    font-size: @article-li-font-size;
+                    line-height: @article-li-line-height;
+                }
+            }
+        }
+    }
+
+    aside {
+        font-family: @aside-font;
+        font-style: italic;
+        visibility: hidden;
+        cursor: pointer;
+    }
+}
+
+#second-section, #third-section {
+    visibility: hidden;
+}
+
+
+#sectionCon {
+
+    article {
+        text-align: center;
+        font-style: italic;
+
+        div { 
+            a {
+                // TODO refactor that
+                text-decoration: none;
+                display:block;
+            }
+        }
+    }
+}
+
+#in, #tw, #gh {
+    display:none;
+}
+
+pre {
+    background: none;
+    border: none;
+}
+
+#githubAscii, #twitterAscii, #linkedinAscii {
+    font-size: 8px;
+    line-height: 8px;
+}
+#githubAscii {
+    color: @github-blue;
+}
+#linkedinAscii {
+    color: @linkedin-blue;
+}
+#twitterAscii {
+    color: @twitter-blue;
+}

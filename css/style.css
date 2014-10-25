@@ -7,208 +7,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
 
-/*
- * Font faces
- */
-@font-face {
-    font-family: 'Inconsolata';
-    src: url("fonts/Inconsolata.otf") format("opentype");
-}
-@font-face {
-    font-family:Goody;
-    src: url("fonts/goudy_bookletter_1911-webfont.ttf") format("truetype");
-}
 
-@font-face {
-    font-family:JunctionB;
-    src: url("fonts/junction-bold.ttf") format("truetype");
-}
-@font-face {
-    font-family:JunctionL;
-    src: url("fonts/junction-light.ttf") format("truetype");
-}
-@font-face {
-    font-family:JunctionR;
-    src: url("fonts/junction-regular.ttf") format("truetype");
-}
-@font-face {
-    font-family:LinLibertine_RI;
-    src: url("fonts/LinLibertine_RI.ttf") format("truetype");
-}
-@font-face {
-    font-family:Prociono;
-    src: url("fonts/Prociono-Regular-webfont.ttf") format("truetype");
-}
-
-
-/*
- * Basic Settings
- */
-* {
-    padding:0;
-    margin:0;
-    height: auto;
-}
-html {
-    height: 100%;
-}
-
-html body {
-    height: 80%;
-    /*height: 270%;*/
-    overflow: hidden;
-}
-
-/*
- * Class that will contain everything
- */
-main {
-    background-color:white;
-    height:100%;
-}
-
-/*
- * Navigation Bar
- */
-nav {
-    margin: 30px 0px 0px 0px;
-}
-
-nav div {
-    margin: 15px 0px;
-}
-
-#pwd a {
-    color: black;
-    font-family: courier;
-    font-weight:bold;
-    font-size:30px;
-} 
-
-#pwd a span {
-    color:grey;
-}
-
-#quote {
-    font-family: 'Merriweather', serif;
-    text-align:right;
-}
-
-#quote span {
-    font-style: italic;
-}
-
-
-/*
- * Text -sections
- */
-section {
-    margin: 20px;
-}
-section .section-text {
-    display:none;
-}
-
-#second-section, #third-section {
-    visibility: hidden;
-}
-
-section h1 {
-    font-family:courier;
-    font-weight:bold;
-    font-size:25px;
-    color:black;
-}
-
-section h1 .chevron {
-    color : red;
-}
-
-section article {
-    font-family: Merriweather, serif;
-    text-align:justify;
-    hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -webkit-hyphens: auto;
-}
-
-section article h2 {
-    font-family: Merriweather, serif;
-    font-style: italic;
-    font-size:22px;
-    text-align: center;
-}
-
-section article p {
-    font-size: 18px;
-    line-height:25px;
-}
-
-/*
- *The small indication to follow the navigation.
- */
-section aside {
-    font-family: courier, serif;
-    font-style: italic;
-    visibility: hidden;
-    cursor: pointer;
-}
-
-/*
- *Special style for the Contact section
- */
-#section-con article {
-    text-align: center;
-    font-style: italic;
-}
-
-.row-fluid .link {
-    display: none;
-}
-
-/*
- *TODO change that
- */
-.row-fluid a {
-    text-decoration: none;
-}
-
-#section-con article div {
-    text-align: left;
-}
-
-/*#section-con article div #githubCase {*/
-    /*text-align: left;*/
-/*}*/
-
-#twitter-link:hover > pre,#github-link:hover > pre,#linkedin-link:hover > pre {
-   color: blue; 
-}
-
-#in, #tw, #gh {
-    display:none;
-}
-
-pre {
-    background: none;
-    border: none;
-}
-
-#githubAscii, #twitterAscii, #linkedinAscii {
-    font-size: 8px;
-    line-height: 8px;
-}
-#githubAscii {
-    color: #4183C4;
-}
-#linkedinAscii {
-    color: #1985BC;
-}
-
-#twitterAscii {
-    color: #55ACEE;
-}
 /*
  * Blinking cursor with Typed.js
  */
@@ -233,4 +32,167 @@ pre {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+/*
+ * Values
+ */
+/*
+ * Classes
+ */
+.invisible {
+  visibilty: hidden;
+}
+.courierBlackBold {
+  font-family: courier;
+  font-weight: bold;
+  color: black;
+}
+.chevron {
+  font-family: courier, serif;
+  font-weight: bold;
+  color: red;
+}
+.innerNavMargin {
+  margin: 15px 0px;
+}
+.highlight {
+  font-style: #2e8ece;
+  color: #2e8ece;
+}
+.prettyText {
+  hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+}
+/*
+ * Main document
+ */
+* {
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+html {
+  height: 100%;
+}
+html body {
+  height: 80%;
+  overflow: hidden;
+}
+html body main {
+  background-color: white;
+  height: 100%;
+}
+nav {
+  margin: 30px 0px 0px 0px;
+}
+nav div {
+  margin: 15px 0px;
+}
+nav #pwd a {
+  font-family: courier;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+}
+nav #pwd a span {
+  color: #808080;
+}
+nav #quote {
+  font-family: 'Merriweather', serif;
+  text-align: right;
+}
+nav #quote span {
+  font-style: italic;
+}
+section {
+  /*margin: 20px;*/
+}
+section h1 {
+  font-family: courier;
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+}
+section div {
+  display: none;
+}
+section div article {
+  hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  font-family: courier, serif;
+}
+section div article h2 {
+  /*font-family: Merriweather, serif;*/
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+}
+section div article p {
+  font-size: 17px;
+  line-height: 23px;
+}
+section div article p a {
+  text-decoration: none;
+  color: #ff0000;
+}
+section div article p a:hover {
+  text-decoration: none;
+  color: #808080;
+}
+section div article ul {
+  list-style-type: none;
+}
+section div article ul li {
+  font-family: courier;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+  line-height: 23px;
+}
+section aside {
+  font-family: courier, serif;
+  font-style: italic;
+  visibility: hidden;
+  cursor: pointer;
+}
+#second-section,
+#third-section {
+  visibility: hidden;
+}
+#sectionCon article {
+  text-align: center;
+  font-style: italic;
+}
+#sectionCon article div a {
+  text-decoration: none;
+  display: block;
+}
+#in,
+#tw,
+#gh {
+  display: none;
+}
+pre {
+  background: none;
+  border: none;
+}
+#githubAscii,
+#twitterAscii,
+#linkedinAscii {
+  font-size: 8px;
+  line-height: 8px;
+}
+#githubAscii {
+  color: #4183c4;
+}
+#linkedinAscii {
+  color: #1985bc;
+}
+#twitterAscii {
+  color: #55acee;
 }
