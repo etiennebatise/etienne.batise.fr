@@ -1,6 +1,6 @@
 $.fn.easyTyped = function(tag) {
     if (tag === "exp") {
-        var text       = "cat my_experience";
+        var text       = "cat everyday_life";
         var target     = "#exp";
         var subsection = "#section-exp";
         var subaside   = "#aside-exp";
@@ -55,15 +55,15 @@ $.fn.easyTyped = function(tag) {
 };
 
 $.fn.heightCss = function(coef) {
-    var newHeight = $(window).height() * coef;
+    var newHeight = $(document).height() * coef;
     var result    = newHeight.toString();
     result        = result +"px";
     return result;
 }
 
-$.fn.triggerEvent = function(number) {
+$.fn.triggerEvent = function(number, viewport) {
 
-    var viewport = $(document).height();
+    // Default setting for the ScrollTo lib
     var scrollToSettings = {offsetTop : '20', easing : 'swing'};
     // If the key is 'Enter' and we can still display things
     if ((number < 3)) {
@@ -74,7 +74,8 @@ $.fn.triggerEvent = function(number) {
 
         // The first time, we display the cool stuff section
         if ( number === 1 ) {
-            $('body').css('height', $(document).heightCss(1.95));
+            //$('body').css('height', $(document).heightCss(1.95));
+            $('body').css('height', 2 * viewport);
             $('#second-section').css('visibility', 'visible');
             $('html, body').scrollTo('#second-section', scrollToSettings);
             $(document).easyTyped("hob");
@@ -82,7 +83,6 @@ $.fn.triggerEvent = function(number) {
 
         // The second time we display the contact section
         else if ( number === 2 ) {
-            $('body').css('height', $().heightCss(2.65));
             $('#third-section').css('visibility', 'visible');
             $('html, body').scrollTo('#third-section',scrollToSettings);
             $(document).easyTyped("con");
@@ -98,6 +98,7 @@ $(function() {
     var counter = 0;
     var timeout = false;
     var delay   = 1500;
+    var viewport = $(document).height();
 
     // First we trigger the first typed. It will display the section about my experience
     counter = $(document).triggerEvent(counter);
@@ -106,13 +107,13 @@ $(function() {
     // Next the events are triggered by pressing enter or clicking on a "link"
     $(document).keypress(function(e) {
         if ((e.which == 13) && (timeout)) {
-            counter = $(document).triggerEvent(counter);
+            counter = $(document).triggerEvent(counter, viewport);
             timeout = false;
             setTimeout(function() { timeout = true; }, delay); 
         }
     });
 
     $('#aside-exp, #aside-hob').click(function() {
-            counter = $(document).triggerEvent(counter);
+            counter = $(document).triggerEvent(counter, viewport);
     });
 });
