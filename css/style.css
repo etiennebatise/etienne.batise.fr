@@ -142,17 +142,15 @@ section div article p a {
 }
 section div article p a:hover {
   text-decoration: none;
-  color: #808080;
+  color: #990000;
 }
 section div article ul {
   list-style-type: none;
 }
 section div article ul li {
-  font-family: courier;
-  font-weight: bold;
-  color: black;
+  /*.courierBlackBold;*/
   font-size: 16px;
-  line-height: 23px;
+  /*line-height: @article-li-line-height;*/
 }
 section aside {
   font-family: courier, serif;
