@@ -13,7 +13,7 @@ $.fn.easyTyped = function(tag) {
     }
     else if(tag == "con") {
         var target     = "#con";
-        var text       = "ls etienne/contact_options";
+        var text       = "ls contact_options";
         var subsection = "#section-con";
         var subaside   = "null";
     }
