@@ -1,6 +1,5 @@
 @import (inline) 'imports.css';
 @import (inline) 'cursor.css';
-
 @import (less) 'values.less';
 
 /*
@@ -49,6 +48,8 @@
 
 html {
     height: 100%;
+
+    /*background-color: #EFEAAD;*/
 
     body {
         height: 80%;
@@ -103,10 +104,11 @@ section {
         display: none;
         article {
             .prettyText;
-            font-family: @aside-font;
+            font-family: @paragraph-font;
 
             h2 {
                 /*font-family: Merriweather, serif;*/
+                font-family: @aside-font;
                 font-size: @article-h2-font-size;
                 font-style: italic;
                 text-align: center;

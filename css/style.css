@@ -76,6 +76,7 @@
 }
 html {
   height: 100%;
+  /*background-color: #EFEAAD;*/
 }
 html body {
   height: 80%;
@@ -98,7 +99,7 @@ nav #pwd a {
   font-size: 30px;
 }
 nav #pwd a span {
-  color: #808080;
+  color: grey;
 }
 nav #quote {
   font-family: 'Merriweather', serif;
@@ -124,21 +125,22 @@ section div article {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
-  font-family: courier, serif;
+  font-family: monospace, courier, serif;
 }
 section div article h2 {
   /*font-family: Merriweather, serif;*/
+  font-family: courier, serif;
   font-size: 22px;
   font-style: italic;
   text-align: center;
 }
 section div article p {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 23px;
 }
 section div article p a {
   text-decoration: none;
-  color: #ff0000;
+  color: red;
 }
 section div article p a:hover {
   text-decoration: none;
