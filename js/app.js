@@ -1,6 +1,6 @@
 $.fn.easyTyped = function(tag) {
     if (tag === "exp") {
-        var text       = "cat everyday_life";
+        var text       = "cat daily_life";
         var target     = "#exp";
         var subsection = "#section-exp";
         var subaside   = "#aside-exp";
@@ -13,7 +13,7 @@ $.fn.easyTyped = function(tag) {
     }
     else if(tag == "con") {
         var target     = "#con";
-        var text       = "ls contact_options";
+        var text       = "ls contacts";
         var subsection = "#section-con";
         var subaside   = "null";
     }
