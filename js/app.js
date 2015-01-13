@@ -29,26 +29,6 @@ $.fn.easyTyped = function(tag) {
             setTimeout( function() {
                 if ( !(subaside === "null") )
                     $(subaside).css('visibility', 'visible');
-                else {
-                    $('#twitterAscii').shuffleLetters(
-                            {
-                          "text" : $("#tw").text(),
-                                "step" : 4,
-                                "fps" : 100
-                            });
-                    $('#githubAscii').shuffleLetters(
-                            {
-                                "text" : $("#gh").text(),
-                                "step" : 1,
-                                "fps" : 250
-                            });
-                    $('#linkedinAscii').shuffleLetters(
-                            {
-                                "text" : $("#in").text(),
-                                "step" : 4,
-                                "fps" : 130
-                            });
-                }
             }, 500);
         }
     });
