@@ -7,6 +7,9 @@
 
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
 
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 
 /*
  * Blinking cursor with Typed.js
@@ -42,6 +45,11 @@
  */
 .invisible {
   visibilty: hidden;
+}
+.titles {
+  font-family: 'Raleway', 'monospace', 'courier', 'serif';
+  font-weight: bold;
+  color: black;
 }
 .courierBlackBold {
   font-family: courier;
@@ -113,7 +121,7 @@ section {
   /*margin: 20px;*/
 }
 section h1 {
-  font-family: courier;
+  font-family: 'Raleway', 'monospace', 'courier', 'serif';
   font-weight: bold;
   color: black;
   font-size: 25px;
@@ -126,11 +134,11 @@ section div article {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
-  font-family: monospace, courier, serif;
+  font-family: 'Raleway', 'monospace', 'courier', 'serif';
 }
 section div article h2 {
   /*font-family: Merriweather, serif;*/
-  font-family: courier, serif;
+  font-family: 'Raleway', 'monospace', 'courier', 'serif';
   font-size: 22px;
   font-style: italic;
   text-align: center;
@@ -156,10 +164,11 @@ section div article ul li {
   /*line-height: @article-li-line-height;*/
 }
 section aside {
-  font-family: courier, serif;
+  font-family: 'Merriweather', serif;
   font-style: italic;
   visibility: hidden;
   cursor: pointer;
+  text-align: center;
 }
 #second-section,
 #third-section {

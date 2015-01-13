@@ -9,6 +9,12 @@
     visibilty : hidden;
 }
 
+.titles {
+    font-family:@better-font;
+    font-weight:bold;
+    color:black;
+}
+
 .courierBlackBold {
     font-family:courier;
     font-weight:bold;
@@ -97,7 +103,7 @@ section {
     // Not used : section-text
 
     h1 {
-        .courierBlackBold;
+        .titles;
         font-size: @section-h1-font-size;
     }
 
@@ -105,11 +111,11 @@ section {
         display: none;
         article {
             .prettyText;
-            font-family: @paragraph-font;
+            font-family: @better-font;
 
             h2 {
                 /*font-family: Merriweather, serif;*/
-                font-family: @aside-font;
+                font-family: @better-font;
                 font-size: @article-h2-font-size;
                 font-style: italic;
                 text-align: center;
@@ -139,10 +145,11 @@ color: @article-a-hover-color;
     }
 
     aside {
-        font-family: @aside-font;
+        font-family: @quote-font;
         font-style: italic;
         visibility: hidden;
         cursor: pointer;
+        text-align:center;
     }
 }
 
