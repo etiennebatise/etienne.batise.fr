@@ -41,6 +41,21 @@
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
+    font-family: @better-font;
+}
+
+.link {
+
+    text-decoration: none;
+
+    color: @link-color;
+
+    &:hover {
+
+        text-decoration: none;
+
+        color: @link-hover-color;
+    }
 }
 
 /*
@@ -78,7 +93,7 @@ nav {
     }
 
     #pwd a {
-        .courierBlackBold;
+        font-family: @better-font;
         font-size: @pwd-font-size;
 
         span {
@@ -98,7 +113,6 @@ nav {
 
 
 section {
-    /*margin: 20px;*/
 
     // Not used : section-text
 
@@ -109,13 +123,12 @@ section {
 
     div {
         display: none;
+
         article {
+            // Puts hyphens
             .prettyText;
-            font-family: @better-font;
 
             h2 {
-                /*font-family: Merriweather, serif;*/
-                font-family: @better-font;
                 font-size: @article-h2-font-size;
                 font-style: italic;
                 text-align: center;
@@ -123,22 +136,19 @@ section {
             }
             p {
                 font-size: @article-p-font-size;
+
                 line-height: @article-p-line-height;
+
                 a {
-                    text-decoration: none;
-                    color: @article-a-color;
-                           &:hover {
-                               text-decoration: none;
-color: @article-a-hover-color;
-                           }
+                    .link;
                 }
             }
             ul {
                 list-style-type: none;
+
                 li {
-                    /*.courierBlackBold;*/
                     font-size: @article-li-font-size;
-                    /*line-height: @article-li-line-height;*/
+                    line-height: @article-li-line-height;
                 }
             }
         }
@@ -149,7 +159,7 @@ color: @article-a-hover-color;
         font-style: italic;
         visibility: hidden;
         cursor: pointer;
-        text-align:center;
+        text-align:right;
     }
 }
 
