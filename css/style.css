@@ -123,6 +123,11 @@ nav #pwd a {
     font-size: 2.5em;
   }
 }
+@media (min-width: 500px) and (max-width: 900px) {
+  nav #pwd a {
+    font-size: 2.7em;
+  }
+}
 nav #pwd a span {
   color: grey;
 }
@@ -165,6 +170,12 @@ section div article p {
     line-height: 1.3em;
   }
 }
+@media (min-width: 500px) and (max-width: 900px) {
+  section div article p {
+    font-size: 1.6em;
+    line-height: 1.6em;
+  }
+}
 section div article p a {
   text-decoration: none;
   color: red;
@@ -184,6 +195,12 @@ section div article ul li {
   section div article ul li {
     font-size: 1.1em;
     line-height: 1.1em;
+  }
+}
+@media (min-width: 500px) and (max-width: 900px) {
+  section div article ul li {
+    font-size: 1.5em;
+    line-height: 1.5em;
   }
 }
 section aside {
