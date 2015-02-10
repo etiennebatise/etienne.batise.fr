@@ -20,18 +20,24 @@
         <!--Personnal-->
         <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8">
 
+        <!--Animate-->
+        <link rel="stylesheet" href="css/animate.css">
 
         <script src="js/jquery.js"></script>
         <script src="js/typed.js"></script>
         <script src="js/jquery.shuffleLetters.js"></script>
         <script src="js/jquery-scrollTo.js"></script>
         <script src="js/app.js"> </script>
-
         <title>Etienne Batise</title>
 
     </head>
 
-    <body class="row-fluid container-fluid">
+    <script src="js/wow.min.js"></script>
+    <script>
+new WOW().init();
+    </script>
+
+    <body class="row-fluid">
 
         <!--<div class="row-fluid">-->
         <main class="span10 offset1">
@@ -55,7 +61,7 @@
             <div id="section-exp" class="row-fluid section-text"> 
                 <article class="span6">
                     <h2>Student at Insa Rouen :</h2> 
-                    <p>Since 2011, I'm studying at the INSA Rouen. It begans by a 2 year undergraduated foundation course in Engineering sciences, leading to a Master's program at the INSA. I have learnt advanced maths, physics and basic programming. Now I'm following a <span class="highlight">Computer-Science degree</span> in this school. My favorite topics are : </p>
+                    <p>Since 2011, I'm studying at the INSA Rouen. It begans by a 2 year undergraduated foundation course in Engineering sciences, leading to a Master's program at the INSA. I have learnt advanced maths, physics and basic programming. Now I'm following a <span class="highlight">Computer-Engineering degree</span> in this school. My favorite topics are : </p>
                     <ul>
                         <li> <span class="chevron">-></span> <strong>C, Java programming</strong></li>
                         <li> <span class="chevron">-></span> <strong>Operating Systems and Networks</strong></li>
@@ -75,12 +81,13 @@
                 </article> 
             </div> 
             <aside id="aside-exp">
-                Press [ Enter ] or <span class='highlight'>click</span> here to see what's next ^_^
+                <!--Press [ Enter ] or <span class='highlight'>click</span> here to see what's next ^_^-->
+                <span id="first_Trigger"> Enter </span>
             </aside>
 
         </section> 
 
-        <section id="second-section" class="container-fluid">
+        <section id="second-section" class=" container-fluid">
             <h1 id="h-hob">
                 <span class="chevron"> > </span>
                 <span id="hob"></span>
@@ -105,7 +112,7 @@
                 </article> 
             </div> 
             <aside id="aside-hob">
-                Want to know more ? <span class="highlight">Click</span> here
+                <span id="second_Trigger"> Enter </span>
             </aside>
         </section> 
 
