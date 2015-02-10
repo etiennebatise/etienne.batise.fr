@@ -111,6 +111,10 @@ $(function() {
     var delay   = 1500;
     var viewport = $(document).height();
 
+    $(document).ready( function () {
+        $('html, body').scrollTo('body');
+    });
+
     // First we trigger the first typed. It will display the section about my experience
     counter = $(document).triggerEvent(counter);
     setTimeout(function() { timeout = true; },delay);
