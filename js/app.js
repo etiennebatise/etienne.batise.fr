@@ -52,7 +52,7 @@ $.fn.easyTyped = function(tag) {
 $.fn.triggerEvent = function(number, viewport) {
 
     // Default setting for the ScrollTo lib
-    var scrollToSettings = {offsetTop : '20', easing : 'swing'};
+    var scrollToSettings = {offsetTop : '3px', easing : 'swing', duration : '1s'};
 
     // The first time, we display the experience section
     if ( number === 0 ) {
@@ -86,7 +86,8 @@ $.fn.triggerEvent = function(number, viewport) {
         $('#third-section').css('visibility', 'visible');
 
         // We scroll to that next section
-        $('html, body').scrollTo('#third-section',scrollToSettings);
+        //$('html, body').scrollTo('#third-section',scrollToSettings);
+        $.scrollTo('#third-section',scrollToSettings);
 
         // We start the last typing job
         $(document).easyTyped("con");
