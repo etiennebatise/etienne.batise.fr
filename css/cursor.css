@@ -4,9 +4,9 @@
 .typed-cursor{
     color:red;
     opacity: 1;
-    -webkit-animation: blink 0.7s 1s;
-    -moz-animation: blink 0.7s 1s;
-    animation: blink 0.7s 1s;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
 }
 @keyframes blink{
     0% { opacity:1; }

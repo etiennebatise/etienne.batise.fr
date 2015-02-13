@@ -17,9 +17,9 @@
 .typed-cursor{
     color:red;
     opacity: 1;
-    -webkit-animation: blink 0.7s 1s;
-    -moz-animation: blink 0.7s 1s;
-    animation: blink 0.7s 1s;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
 }
 @keyframes blink{
     0% { opacity:1; }
@@ -125,7 +125,7 @@ nav #pwd a {
 }
 @media (min-width: 500px) and (max-width: 900px) {
   nav #pwd a {
-    font-size: 2.7em;
+    font-size: 2.5em;
   }
 }
 nav #pwd a span {
@@ -144,6 +144,26 @@ section h1 {
   font-weight: bold;
   color: black;
   font-size: 2.3em;
+}
+section h1 .enter {
+  height: 2.3em;
+  /*font-size: @section-h1-font-size - 1.5;*/
+  margin: 2px;
+  padding: 0px 2px;
+  padding-top: 1px;
+  border: 1px solid #ffbdbd;
+  border-radius: 10px;
+  color: #ffbdbd;
+  /*background-color: lighten(#E74C3C, 20%);*/
+  /*background-color: #E74C3C;*/
+  font-size: auto;
+  visibility: hidden;
+  font-weight: normal;
+}
+@media (max-width: 500px) {
+  section h1 .enter {
+    display: none;
+  }
 }
 section div {
   visibility: hidden;
@@ -172,8 +192,8 @@ section div article p {
 }
 @media (min-width: 500px) and (max-width: 900px) {
   section div article p {
-    font-size: 1.6em;
-    line-height: 1.6em;
+    font-size: 1.3em;
+    line-height: 1.3em;
   }
 }
 section div article p a {
@@ -199,8 +219,8 @@ section div article ul li {
 }
 @media (min-width: 500px) and (max-width: 900px) {
   section div article ul li {
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 1.1em;
+    line-height: 1.1em;
   }
 }
 section aside {
@@ -232,6 +252,9 @@ section aside span:hover {
 #second-section,
 #third-section {
   visibility: hidden;
+}
+#third-section {
+  margin-bottom: 100px;
 }
 #sectionCon article {
   text-align: center;

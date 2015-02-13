@@ -132,6 +132,28 @@ section {
     h1 {
         .titles;
         font-size: @section-h1-font-size;
+
+        .enter {
+            // TODO refactor
+            height: @section-h1-font-size;
+            /*font-size: @section-h1-font-size - 1.5;*/
+            margin: 2px;
+            padding: 0px 2px;
+            padding-top: 1px;
+            border: 1px solid lighten(red, 37%);
+            border-radius: 10px;
+            // TODO refactor
+            color: lighten(red, 37%) ;
+            /*background-color: lighten(#E74C3C, 20%);*/
+            /*background-color: #E74C3C;*/
+            font-size: auto;
+            visibility: hidden;
+            font-weight: normal;
+
+            @media (max-width: 500px) {
+                display:none;
+            }
+        }
     }
 
     div {
@@ -212,6 +234,11 @@ section {
 #second-section, #third-section {
     visibility: hidden;
 }
+
+#third-section {
+    margin-bottom: 100px;
+}
+
 
 
 #sectionCon {

@@ -26,7 +26,9 @@
         <script src="js/jquery.shuffleLetters.js"></script>
         <!--<script src="js/jquery-scrollTo.js"></script>-->
         <script src="js/jquery.scrollTo.min.js"></script>
-        <script src="js/app.js"> </script>
+        <script src="js/jquery.visible.min.js"></script>
+        <!--<script src="js/app.js"> </script>-->
+        <script src="js/new_app.js"> </script>
         <title>Etienne Batise</title>
 
     </head>
@@ -49,8 +51,11 @@
 
         <section id="first-section" class="container-fluid">
             <h1 id="h-exp">
-                <span class="chevron"> > </span>
-                <span id="exp"></span>
+                <span>
+                    <span class="chevron"> > </span>
+                    <span id="exp"></span>
+                </span>
+                <span id="first-enter" class="enter">Enter</span>
             </h1>
 
             <div id="section-exp" class="row-fluid section-text"> 
@@ -77,15 +82,18 @@
             </div> 
             <aside id="aside-exp">
                 <!--Press [ Enter ] or <span class='highlight'>click</span> here to see what's next ^_^-->
-                <span id="first_Trigger"> Enter </span>
+                <span id="first_Trigger"> Next </span>
             </aside>
 
         </section> 
 
         <section id="second-section" class=" container-fluid">
             <h1 id="h-hob">
-                <span class="chevron"> > </span>
-                <span id="hob"></span>
+                <span>
+                    <span class="chevron"> > </span>
+                    <span id="hob"></span>
+                </span>
+                <span id="second-enter" class="enter">Enter</span>
             </h1>
 
             <div id="section-hob" class="row-fluid section-text"> 
@@ -107,7 +115,7 @@
                 </article> 
             </div> 
             <aside id="aside-hob">
-                <span id="second_Trigger"> Enter </span>
+                <span id="second_Trigger"> Next </span>
             </aside>
         </section> 
 
