@@ -19,14 +19,6 @@ $(function() {
     // The sections need to have their visibility set to hidden
     var section = ['#second-section'];
 
-    // By default we consider the device is a wide screen
-    var isOnMobile = false;
-
-    // But we check thanks to media queries in css
-    if( $(".enter").css("display") == "none")
-        isOnMobile = true;
-
-
     // We want the initial state to be one
     state = $(document).update(state);
 
@@ -92,7 +84,7 @@ $.fn.update = function(state, callBack) {
 
         $(document).mShow("#" + sections[state]);
 
-        if (state != 0)
+        if ( (state != 0) && !($(document).isOnMobile()) )
             $(document).moveTo(sections[state]);
 
         $(document).animateSection(state);
@@ -174,3 +166,15 @@ $.fn.mHide = function(tag) {
     if (!(tag === "null"))
         $(tag).css('visibility', 'hidden');
 };
+
+$.fn.isOnMobile = function() {
+    // By default we consider the device is a wide screen
+    var result = false;
+
+    // But we check thanks to media queries in css
+    if( $(".enter").css("display") == "none")
+       result = true;
+    return result;
+
+
+}
