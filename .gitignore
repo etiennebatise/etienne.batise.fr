@@ -1,6 +1,4 @@
-sftp-config.json
-admin/*
-config.php
-database
-$
-*~
+*.swp
+index2.html
+style2.css
+*.vim
