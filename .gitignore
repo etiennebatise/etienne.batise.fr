@@ -1,4 +1,4 @@
 *.swp
-index2.html
-style2.css
 *.vim
+deploy
+.hyde_deps
