@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link href="http://fonts.googleapis.com/css?family=Anton"
+        rel="stylesheet" type="text/css">
+        <!-- <title>Hyde Starter Kit {% if resource.meta.title-%} -->
+            <!--     | {{ resource.meta.title}}{%-endif %}</title> -->
+        <title>Etienne Batise</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="{{ media_url('css/knacss.css') }}">
+        <link rel="stylesheet" href="{{ media_url('css/style.css') }}">
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body class="w70 center"> 
+        <header>
+            {% filter markdown -%}
+            {% block header %}{% endblock %}
+            {%- endfilter %} 
+        </header>
+
+        <section class="grid-3-small-1">
+            <article> 
+                {% filter markdown -%}
+                {% block sec1par1 %}{% endblock %}
+                {%- endfilter %} 
+            </article>
+
+            <img src="" alt="img"/>
+
+            <article> 
+                {% filter markdown -%}
+                {% block sec1par2 %}{% endblock %}
+                {%- endfilter %} 
+            </article>
+        </section>
+
+        <section class="grid-2-1-small-1">
+            <article> 
+                {% filter markdown -%}
+                {% block sec2par %}{% endblock %}
+                {%- endfilter %} 
+            </article>
+
+            <img src="" alt="img2"/>
+
+            <iframe class="flex-item-double" width="100%" height="166" scrolling="no" frameborder="no"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/204080891&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+        </section>
+
+        <section>
+
+        </section>
+        <!-- <nav> -->
+            <!-- {# Move main menu rendering away from the base layout. This -->
+            <!--    way it can be used to generate the list many times, e.g. in -->
+            <!--    a footer, etc. -->
+            <!-- #} -->
+            <!--     {% import "macros.j2" as macros with context %} -->
+            <!--     {{ macros.render_basic_menu() }} -->
+            <!--     {{ macros.render_advanced_menu() }} -->
+            <!-- </nav> -->
+        <!-- <article id="content"> -->
+            <!-- {# Main content block. Notice it has to pass through the -->
+            <!--    Markdown filter to generate HTML. If a block in content -->
+            <!--    pages contains only markup, you can omit the filter. -->
+            <!-- #} -->
+            <!--     {% filter markdown -%} -->
+            <!--     {% block content %}{% endblock %} -->
+            <!--     {%- endfilter %} -->
+            <!-- </article> -->
+
+        {# Some parts of the web are not needed for development and can
+        wait for production (e.g. analytics). They can be included in
+        the final production build. Create a new config file, extend
+        the original one and override the "mode" property; then build
+        the site with the new "production configuration".
+        #}
+        {% if site.config.mode == "production" -%}
+        {% include "ga.j2" %}
+        {%- endif %}
+
+    </body>
+</html>

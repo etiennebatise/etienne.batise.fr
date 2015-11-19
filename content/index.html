@@ -1,0 +1,72 @@
+{# Use base.j2 template as a base and only provide values for placeholders
+   in this file.
+#}
+{% extends "base.j2" %}
+
+{% block header %} 
+
+Hello, Holà, Bonjour, 
+======================
+
+"Here is my quote". Author 
+{% endblock %} 
+
+{% block sec1par1 %} 
+## Title 1
+
+Id, commodo a, lacus. Cras sit amet erat et nulla varius aliquet. Aliquam erat
+volutpat. Praesent feugiat vehicula pede. Suspendisse pulvinar, orci in
+sollicitudin venenatis, nibh libero hendrerit sem, eu tempor nisi felis et
+metus. Etiam gravida sem ut mi. Integer volutpat, enim eu varius gravida, risus
+urna venenatis lectus, ac ultrices quam nulla eu leo. Duis arcu.  
+
+Nullam adipiscing eros sit amet ante. Vestibulum ante. Sed quis ipsum non ligula
+dignissim luctus. Integer quis justo id tortor accumsan tempus. Cras vitae
+magna. Nunc bibendum lacinia tellus. Quisque porttitor ligula et pede. Nam erat
+nibh, fringilla ac, rutrum sit amet, rhoncus in, ipsum. Mauris rhoncus, lacus eu
+convallis sagittis, quam magna placerat est, vitae imperdiet mauris arcu ac dui.
+In ac urna non justo posuere mattis.
+{% endblock %} 
+
+{% block sec1par2 %} 
+## Title 2
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce mi. Vivamus enim velit, condimentum sit amet, laoreet quis, fermentum non, ipsum. Etiam quis felis. Curabitur tincidunt, sapien et luctus faucibus, nibh nisi commodo arcu, vitae cursus neque ante sed elit. Sed sit amet erat. Phasellus luctus cursus risus.  
+
+In pede adipiscing mi dapibus condimentum. Etiam felis risus, condimentum in,
+malesuada eget, pretium ut, sapien. Suspendisse placerat lectus venenatis lorem.
+Sed accumsan aliquam enim. Etiam hendrerit, metus eu semper rutrum, nisl elit
+pharetra purus, non interdum nibh enim eget augue. Sed mauris. .  
+{% endblock %} 
+
+{% block sec2par %}
+## Title 3
+
+Donec consequat mi. Quisque vitae dolor. Integer lobortis. Maecenas id nulla.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed volutpat felis
+vitae dui. Vestibulum et est ac ligula dapibus elementum. Nunc suscipit nisl
+eu felis. Duis nec tortor. Nullam diam libero, semper id, consequat in,
+consectetuer ut, metus. Phasellus dui purus, vehicula sed, venenatis a,
+rutrum at, nunc. Pellentesque interdum sapien nec neque.  
+{% endblock sec2par %}
+
+
+
+
+{# Markdown main content block. #}
+{% block content %}
+What is this all about
+======================
+
+Starter Kit introduces you to Hyde's many options and possibilities.
+Finding your way for the first time can be a bit confusing, so this
+template tries to ease your way in by exposing only core features and
+technologies step by step. Those are:
+
+  * basic Hyde site structure
+  * configuration file
+  * Jinja templates
+  * Markdown
+  * basic metadata and plugins
+
+Are you ready for your [first steps](first-steps.html)?
+{% endblock %}
