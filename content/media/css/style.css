@@ -103,10 +103,6 @@ img {
 
 @media (min-width: 1440px) {
 
-    body {
-        width: 90%;
-    }
-
     #section1 article {
         width: 33%;
     }
