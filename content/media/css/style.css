@@ -1,6 +1,7 @@
 body {
     background: #eeeded; 
     font-family: 'Merriweather', serif;
+    width: 90%;
 }
 
 h1, h2, h3 {
@@ -24,7 +25,7 @@ header {
     /* align-items: center; */ 
 }
 
-.grid-2-1-small-1, .grid-3-small-1, .grid-4-small-2-tiny-1 {
+.grid-2-1-small-1, .grid-2-small-1, .grid-4-small-2-tiny-1 {
     margin-left: 0;
 }
 
@@ -34,7 +35,7 @@ section {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.2s ease-in-out;
     padding: 1em;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 section:hover {
@@ -61,15 +62,28 @@ img {
     image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
     -ms-interpolation-mode: nearest-neighbor;   /* IE8+ */ 
 
-    padding: 1em;
-    width: 70%;
+    /* padding: 1em; */
+    width: 50%; 
+    margin: 5% 0%;
+}
+
+#section1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section1 article {
+    width: 100%;
+}
+
+#laptop {
+    width: 20%;
 }
 
 .imgContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 #links {
@@ -79,3 +93,33 @@ img {
 #links article {
     text-align: center;
 } 
+
+#section2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (min-width: 1440px) {
+
+    body {
+        width: 90%;
+    }
+
+    #section1 article {
+        width: 33%;
+    }
+
+    #laptop {
+        width: 40%
+    }
+
+    #section2 article {
+        width: 50%
+    }
+
+    iframe {
+        width: 100%
+    }
+}
