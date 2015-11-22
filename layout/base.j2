@@ -3,8 +3,6 @@
     <head>
         <link href="http://fonts.googleapis.com/css?family=Anton"
         rel="stylesheet" type="text/css">
-        <!-- <title>Hyde Starter Kit {% if resource.meta.title-%} -->
-            <!--     | {{ resource.meta.title}}{%-endif %}</title> -->
         <title>Etienne Batise</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="{{ media_url('css/knacss.css') }}">
@@ -29,8 +27,7 @@
 
             <article class="imgContainer">
                 <img id="laptop" src="{{ media_url('img/laptop.png') }}" alt="drum
-                image" title="This is a drumset. I like to think it looks like
-                mine."/> 
+                image" title="{% block laptopTooltip %}{% endblock %}"/> 
             </article>
 
             <article> 
@@ -49,8 +46,7 @@
 
             <article class="imgContainer">
                 <img src="{{ media_url('img/drums.png') }}" alt="drum
-                image" title="This is a drumset. I like to think it looks like
-                mine."/> 
+                image" title="{% block drumsetTooltip %}{% endblock %}"/> 
                 <!-- <div id=drums></div> -->
             </article>
 
@@ -82,24 +78,6 @@
                     </span>
                 </article>
         </section>
-        <!-- <nav> -->
-            <!-- {# Move main menu rendering away from the base layout. This -->
-            <!--    way it can be used to generate the list many times, e.g. in -->
-            <!--    a footer, etc. -->
-            <!-- #} -->
-            <!--     {% import "macros.j2" as macros with context %} -->
-            <!--     {{ macros.render_basic_menu() }} -->
-            <!--     {{ macros.render_advanced_menu() }} -->
-            <!-- </nav> -->
-        <!-- <article id="content"> -->
-            <!-- {# Main content block. Notice it has to pass through the -->
-            <!--    Markdown filter to generate HTML. If a block in content -->
-            <!--    pages contains only markup, you can omit the filter. -->
-            <!-- #} -->
-            <!--     {% filter markdown -%} -->
-            <!--     {% block content %}{% endblock %} -->
-            <!--     {%- endfilter %} -->
-            <!-- </article> -->
 
         {# Some parts of the web are not needed for development and can
         wait for production (e.g. analytics). They can be included in
