@@ -70,7 +70,7 @@ img {
     margin: 5% 0%;
 }
 
-#section1 {
+#section1, #section2 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -102,13 +102,6 @@ img {
 #links article {
     text-align: center;
 } 
-
-#section2 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-}
 
 @media (min-width: 1440px) {
 
