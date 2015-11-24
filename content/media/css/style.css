@@ -12,14 +12,16 @@ h1, h2, h3 {
     font-family: 'Merriweather', serif;
 }
 
-p {
+p, li {
     word-wrap: break-word;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
     font-size: larger;
+    line-height: 1.8;
 }
+
 
 header {
     margin-top: 4em;
@@ -28,8 +30,9 @@ header {
     justify-content: space-between;
 }
 
-.grid-4-small-2-tiny-1 {
-    margin-left: 0;
+em {
+    all: unset;
+    color: #34495e;
 }
 
 section {
@@ -42,11 +45,6 @@ section {
 
 section:hover {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-
-body section:last-of-type {
-    /* margin-bottom: 16em; */
 }
 
 iframe {
@@ -65,45 +63,8 @@ img {
     -ms-interpolation-mode: nearest-neighbor;   /* IE8+ */ 
 
     width: 50%; 
-    margin: 5% 0%;
+    margin: 2em 0;
 }
-
-#section1, #section2 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
-
-#section1 article {
-    width: 100%;
-}
-
-#section1 .imgContainer {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-#laptop {
-    width: 20%;
-}
-
-.imgContainer {
-    text-align: center;
-}
-
-#section2 article {
-    width: 100%;
-}
-
-#links {
-    /* padding-bottom: 3em; */
-}
-
-#links article {
-    text-align: center;
-} 
 
 footer {
     display: flex;
@@ -112,6 +73,59 @@ footer {
     align-items: center;
     text-align: center;
     margin: 3em;
+}
+
+footer i {
+    color: #34495e;
+}
+
+.grid-4-small-2-tiny-1 {
+    margin-left: 0;
+}
+
+.imgContainer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.crossed {
+    text-decoration: line-through;
+}
+
+#section1, #section2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#section1 article, #section2 article {
+    width: 100%;
+}
+
+#laptop {
+    width: 20%;
+}
+
+#links article {
+    text-align: center;
+} 
+
+#sec1par1 h2 {
+    color: #16a085; 
+}
+
+#sec1par2 h2 {
+    color: #8244ad; 
+}
+
+#sec2par h2 {
+    color: #c0392b; 
+}
+
+#links h2 {
+    color: #e67e22;
 }
 
 @media (min-width: 1440px) {
