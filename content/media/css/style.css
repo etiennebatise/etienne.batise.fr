@@ -93,6 +93,10 @@ img {
     text-align: center;
 }
 
+#section2 article {
+    width: 100%;
+}
+
 #links {
     padding-bottom: 3em;
 }
