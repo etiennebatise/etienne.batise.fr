@@ -6,6 +6,7 @@
         <title>Etienne Batise</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="{{ media_url('img/me.png') }}">
         <link rel="stylesheet" href="{{ media_url('css/knacss.css') }}">
         <link rel="stylesheet" href="{{ media_url('css/style.css') }}">
         <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
@@ -78,7 +79,17 @@
                         <i class="fa fa-envelope fa-5x"></i> 
                     </span>
                 </article>
+
         </section>
+
+        <footer>
+            {% filter markdown -%}
+            {% block footer %}{% endblock %}
+            <i class="fa fa-coffee"></i> 
+
+            {%- endfilter %}
+
+        </footer>
 
         {# Some parts of the web are not needed for development and can
         wait for production (e.g. analytics). They can be included in

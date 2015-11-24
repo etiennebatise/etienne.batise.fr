@@ -45,8 +45,8 @@ section:hover {
 }
 
 
-body section:last-child {
-    margin-bottom: 16em;
+body section:last-of-type {
+    /* margin-bottom: 16em; */
 }
 
 iframe {
@@ -98,12 +98,21 @@ img {
 }
 
 #links {
-    padding-bottom: 3em;
+    /* padding-bottom: 3em; */
 }
 
 #links article {
     text-align: center;
 } 
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3em;
+}
 
 @media (min-width: 1440px) {
 
