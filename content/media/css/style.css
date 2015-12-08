@@ -1,0 +1,153 @@
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #eeeded; 
+    font-family: 'Merriweather', serif;
+    width: 90%;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    font-size: larger;
+    line-height: 1.8;
+}
+
+
+header {
+    margin-top: 4em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+em {
+    font-style: normal;
+    color: #34495e;
+}
+
+section {
+    background: #fff;
+    margin-top: 2em;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s ease-in-out;
+    padding: 1em;
+}
+
+section:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+iframe {
+    margin-top: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img {
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated;                 /* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+ */ 
+
+    width: 50%; 
+    margin: 2em 0;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3em;
+}
+
+footer i {
+    color: #34495e;
+}
+
+.grid-4-small-2-tiny-1 {
+    margin-left: 0;
+}
+
+.imgContainer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.crossed {
+    text-decoration: line-through;
+}
+
+#section1, #section2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#section1 article, #section2 article {
+    width: 100%;
+}
+
+#laptop {
+    width: 20%;
+}
+
+#links article {
+    text-align: center;
+} 
+
+#sec1par1 h2 {
+    color: #16a085; 
+}
+
+#sec1par2 h2 {
+    color: #8244ad; 
+}
+
+#sec2par h2 {
+    color: #c0392b; 
+}
+
+#links h2 {
+    color: #e67e22;
+}
+
+@media (min-width: 1440px) {
+
+    body {
+        width: 75%;
+    }
+
+    #section1 article {
+        width: 33%;
+    }
+
+    #laptop {
+        width: 40%
+    }
+
+    #section2 article {
+        width: 50%
+    }
+
+    iframe {
+        width: 100%
+    }
+}
