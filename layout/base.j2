@@ -1,17 +1,14 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <link href="http://fonts.googleapis.com/css?family=Anton"
-        rel="stylesheet" type="text/css">
         <title>Etienne Batise</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="{{ media_url('img/me.png') }}">
+        <!-- <link rel="icon" href="{{ media_url('img/me.png') }}"> -->
         <link rel="stylesheet" href="{{ media_url('css/knacss.css') }}">
         <link rel="stylesheet" href="{{ media_url('css/style.css') }}">
-        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
     </head>
 
     <body class="center"> 
@@ -60,8 +57,14 @@
                 image" title="{% block drumsetTooltip %}{% endblock %}"/> 
             </article>
 
-            <iframe width="100%" height="166" scrolling="no" frameborder="no"
-                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/204080891&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+            <p>
+                <a href="https://soundcloud.com/mattress" target="_blank">Listen
+                on soundcloud</a> and <a href="https://facebook.com/mttress"
+                target="_blank">like our facebook page</a>
+            </p> 
+            
+            <!-- <iframe width="100%" height="166" scrolling="no" frameborder="no" -->
+            <!--     src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/204080891&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe> -->
 
         </section>
 
@@ -98,12 +101,6 @@
 
         </footer>
 
-        {# Some parts of the web are not needed for development and can
-        wait for production (e.g. analytics). They can be included in
-        the final production build. Create a new config file, extend
-        the original one and override the "mode" property; then build
-        the site with the new "production configuration".
-        #}
         {% if site.config.mode == "production" -%}
         {% include "ga.j2" %}
         {%- endif %}

@@ -6,10 +6,12 @@ body {
     background: #eeeded; 
     font-family: 'Merriweather', serif;
     width: 90%;
+    font-weight:300;
 }
 
 h1, h2, h3 {
     font-family: 'Merriweather', serif;
+    font-weight:300;
 }
 
 p {
@@ -19,7 +21,7 @@ p {
     -ms-hyphens: auto;
     hyphens: auto;
     font-size: larger;
-    line-height: 1.8;
+    line-height: 2.0;
 }
 
 
@@ -113,20 +115,28 @@ footer i {
     text-align: center;
 } 
 
-#sec1par1 h2 {
+
+#sec1par1 h2, em[color="green"] {
     color: #16a085; 
 }
 
-#sec1par2 h2 {
+#sec1par2 h2, em[color="purple"] {
     color: #8244ad; 
 }
 
-#sec2par h2 {
-    color: #c0392b; 
+#sec2par h2, em[color="orange"] {
+    color: #e67e22;
 }
 
 #links h2 {
-    color: #e67e22;
+    color: #c0392b; 
+}
+
+#links span {
+    color: #333333;
+}
+#links span:hover {
+    color: #000000;
 }
 
 @media (min-width: 1440px) {
